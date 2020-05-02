@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'AppDriver', // Title for your website.
-  tagline: 'The mobile automation framework',
+  tagline: 'A mobile focused test automation framework',
   url: 'https://lewie9021.github.io', // Your website URL
   baseUrl: '/appdriver/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
