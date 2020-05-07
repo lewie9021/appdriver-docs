@@ -32,6 +32,6 @@ const { elements, by } = require("appdriver");
 })();
 ```
 
-## Related methods
+## Related Methods
 
 - [`by.id(id)`](./by-id.md)

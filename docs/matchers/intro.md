@@ -11,6 +11,8 @@ A Matcher defines how elements are located. There are several ways of searching 
 Find element with an accessibility label of "input": 
 
 ```javascript
+const { element, by } = require("appdriver");
+
  (async () => {
    await element(by.label("input"));
  })();
@@ -19,6 +21,8 @@ Find element with an accessibility label of "input":
 Find all elements that have an accessibility label starting with "list-item-".
 
 ```javascript
+const { elements, by } = require("appdriver");
+
  (async () => {
     await elements(by.label(/^list-item-.*$/));
  })();
@@ -27,6 +31,8 @@ Find all elements that have an accessibility label starting with "list-item-".
 Find element with text 'Click Me!''.
 
 ```javascript
+const { element, by } = require("appdriver");
+
  (async () => {
    await element(by.text("Click Me!"));
  })();

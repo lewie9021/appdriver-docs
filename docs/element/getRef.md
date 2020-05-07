@@ -10,7 +10,7 @@ Retrieves the element reference.
 
 `Promise` (`Object`): Appium element reference.
 
-#### Examples
+## Examples
 
 ```javascript
 const { element, by, expect } = require("appdriver");
