@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 A Matcher defines how elements are located. There are several ways of searching for elements in the tree such as `by.label` and `by.text`. What's important is that you use a strategy that is reliable in your application and won't change often.
 
-### Examples
+## Examples
  
 Find element with an accessibility label of "input": 
 
