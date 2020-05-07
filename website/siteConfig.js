@@ -7,7 +7,7 @@ const siteConfig = {
   organizationName: "lewie9021",
   headerLinks: [
     {doc: "doc1", label: "Docs"},
-    {doc: "doc4", label: "API"},
+    {doc: "configuration", label: "API"},
     {page: "help", label: "Help"},
     {blog: true, label: "Blog"},
   ],
@@ -21,7 +21,7 @@ const siteConfig = {
   },
   copyright: `Copyright © ${new Date().getFullYear()} Lewis Barnes`,
   highlight: {
-    theme: "default",
+    theme: "darcula"
   },
   scripts: ["https://buttons.github.io/buttons.js"],
   onPageNav: "separate",
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: false,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
