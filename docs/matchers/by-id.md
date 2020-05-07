@@ -8,7 +8,7 @@ Find element(s) by their ID. For Android this is the `resource-id` attribute, wh
 
 #### Returns
 
-`Matcher`: A matcher to be used when finding elements.
+[`Matcher`](../matchers/intro.md): A matcher to be used when finding elements.
 
 ## Examples
 

@@ -8,7 +8,7 @@ Find element(s) by their text value.
 
 #### Returns
 
-`Matcher`: A matcher to be used when finding elements.
+[`Matcher`](../matchers/intro.md): A matcher to be used when finding elements.
 
 ## Examples
 
