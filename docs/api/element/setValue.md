@@ -12,7 +12,7 @@ Replaces element value, clearing existing input.
 
 #### Returns
 
-[`Element`](../element/intro): A new element to avoid mutation and allow function chaining.
+[`Element`](./element): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 

@@ -8,7 +8,7 @@ Wipes the contents of a text element.
 
 #### Returns
 
-`Element`: A new element to avoid mutation and allow function chaining.
+[`Element`](./element): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 

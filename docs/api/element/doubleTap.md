@@ -14,7 +14,7 @@ Performs double tap gesture on element.
 
 #### Returns
 
-[`Element`](/intro): A new element to avoid mutation and allow function chaining.
+[`Element`](./element): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 

@@ -12,7 +12,7 @@ Using the virtual keyboard, types the given text into a text element.
 
 #### Returns
 
-[`Element`](../element/intro): A new element to avoid mutation and allow function chaining.
+[`Element`](./element): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 
