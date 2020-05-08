@@ -6,7 +6,7 @@ const siteConfig = {
   projectName: "appdriver",
   organizationName: "lewie9021",
   headerLinks: [
-    {doc: "docs/getting-started", label: "Docs"},
+    {doc: "getting-started", label: "Docs"},
     {doc: "api/configuration", label: "API"}
   ],
   users: [],

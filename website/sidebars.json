@@ -1,8 +1,14 @@
 {
   "docs": {
     "Docs": [
-      "docs/getting-started",
-      "docs/guides/writing-your-first-test"
+      "getting-started",
+      {
+        "type": "subcategory",
+        "label": "Guides",
+        "ids": [
+          "guides/writing-your-first-test"
+        ]
+      }
     ]
   },
   "api": {
