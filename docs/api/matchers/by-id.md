@@ -8,7 +8,7 @@ Find element(s) by their ID. For Android this is the `resource-id` attribute, wh
 
 #### Returns
 
-[`Matcher`](../matchers/intro.md): A matcher to be used when finding elements.
+[`Matcher`](intro.md): A matcher to be used when finding elements.
 
 ## Examples
 
@@ -34,4 +34,4 @@ const { elements, by } = require("appdriver");
 
 ## Related Methods
 
-- [`by.label(label)`](./by-label.md)
+- [`by.label(label)`](by-label.md)

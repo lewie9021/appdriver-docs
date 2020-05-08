@@ -27,8 +27,8 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.isSelected()`](./isSelected.md)
-- [`.isFocused()`](./isFocused.md)
+- [`.isSelected()`](isSelected.md)
+- [`.isFocused()`](isFocused.md)
 
 ## Related Docs
 

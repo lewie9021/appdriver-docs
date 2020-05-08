@@ -33,8 +33,8 @@ const { element, by } = require("appdriver");
 
 ## Related Methods
 
-- [`.setValue(value)`](./setValue.md)
-- [`.clearText()`](./clearText.md)
+- [`.setValue(value)`](setValue.md)
+- [`.clearText()`](clearText.md)
 
 ## Related Docs
 

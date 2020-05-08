@@ -8,7 +8,7 @@ Find element(s) by their accessibility label. For Android this is the `content-d
 
 #### Returns
 
-[`Matcher`](../matchers/intro.md): A matcher to be used when finding elements.
+[`Matcher`](intro.md): A matcher to be used when finding elements.
 
 ## Examples
 
@@ -34,4 +34,4 @@ const { elements, by } = require("appdriver");
 
 ## Related Methods
 
-- [`by.id(id)`](./by-id.md)
+- [`by.id(id)`](by-id.md)

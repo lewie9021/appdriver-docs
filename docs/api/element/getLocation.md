@@ -53,7 +53,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.getSize()`](./getSize.md)
+- [`.getSize()`](getSize.md)
 
 ## Related Docs
 

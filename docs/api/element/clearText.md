@@ -32,8 +32,8 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.setValue(value)`](./setValue.md)
-- [`.typeText(text)`](./typeText.md)
+- [`.setValue(value)`](setValue.md)
+- [`.typeText(text)`](typeText.md)
 
 ## Related Docs
 

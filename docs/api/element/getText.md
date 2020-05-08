@@ -58,7 +58,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.getValue()`](./getValue.md)
+- [`.getValue()`](getValue.md)
 
 ## Related Docs
 

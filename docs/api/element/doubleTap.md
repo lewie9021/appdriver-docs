@@ -14,7 +14,7 @@ Performs double tap gesture on element.
 
 #### Returns
 
-[`Element`](../element/intro): A new element to avoid mutation and allow function chaining.
+[`Element`](/intro): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 
@@ -42,8 +42,8 @@ const { element, by } = require("appdriver");
 
 ## Related Methods
 
-- [`.tap(options)`](./tap.md)
-- [`.longPress(options)`](./longPress.md)
+- [`.tap(options)`](tap.md)
+- [`.longPress(options)`](longPress.md)
 
 ## Related Docs
 

@@ -64,8 +64,8 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.typeText(text)`](./typeText.md)
-- [`.clearText()`](./clearText.md)
+- [`.typeText(text)`](typeText.md)
+- [`.clearText()`](clearText.md)
 
 ## Related Docs
 

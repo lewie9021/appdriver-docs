@@ -32,7 +32,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.getLocation(options)`](./getLocation.md)
+- [`.getLocation(options)`](getLocation.md)
 
 ## Related Docs
 

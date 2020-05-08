@@ -27,7 +27,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.exists()`](./exists.md)
+- [`.exists()`](exists.md)
 
 ## Related Docs
 

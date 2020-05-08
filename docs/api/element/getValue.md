@@ -53,7 +53,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.getText(options)`](./getText.md)
+- [`.getText(options)`](getText.md)
 
 ## Related Docs
 

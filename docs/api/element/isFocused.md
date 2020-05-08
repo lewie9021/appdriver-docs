@@ -27,8 +27,8 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.isDisabled()`](./isDisabled.md)
-- [`.isSelected()`](./isSelected.md)
+- [`.isDisabled()`](isDisabled.md)
+- [`.isSelected()`](isSelected.md)
 
 ## Related Docs
 

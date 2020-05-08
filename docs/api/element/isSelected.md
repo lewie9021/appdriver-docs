@@ -31,8 +31,8 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.isDisabled()`](./isDisabled.md)
-- [`.isFocused()`](./isFocused.md)
+- [`.isDisabled()`](isDisabled.md)
+- [`.isFocused()`](isFocused.md)
 
 ## Related Docs
 

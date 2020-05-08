@@ -8,7 +8,7 @@ Find element(s) by their type.
 
 #### Returns
 
-[`Matcher`](../matchers/intro.md): A matcher to be used when finding elements.
+[`Matcher`](intro.md): A matcher to be used when finding elements.
 
 ## Examples
 

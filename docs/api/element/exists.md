@@ -27,7 +27,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.isVisible()`](./isVisible.md)
+- [`.isVisible()`](isVisible.md)
 
 ## Related Docs
 

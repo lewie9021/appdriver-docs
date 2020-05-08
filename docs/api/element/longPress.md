@@ -1,53 +1,52 @@
 ---
-id: tap
-title: .tap(options)
-sidebar_label: .tap(options)
+id: longPress
+title: .longPress(options)
+sidebar_label: .longPress(options)
 ---
 
-Performs tap gesture on element.
+Performs long press gesture on the element.
 
 #### Parameters
 
 1. `options` (`Object?`):
     - `options.x` (`Number?`): x offset from left of element. Defaults to center point.
     - `options.y` (`Number?`): y offset from top of element. Defaults to center point.
+    - `options.duration` (`Number?`): Time in milliseconds to perform the press gesture. Defaults to 750.
 
 #### Returns
 
-[`Element`](../element/intro): A new element to avoid mutation and allow function chaining.
+[`Element`](/intro): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 
-Perform tap gesture at element center point:
+Perform long press gesture at element center point:
 
 ```javascript
 const { element, by } = require("appdriver");
 
 (async () => {
   await element(by.label("button"))
-    .tap();
+    .longPress();
 })();
 ```
 
-Perform tap gesture at (0, 50), relative to the element location:
+Perform long press gesture at (100, 25), relative to the element location:
 
 ```javascript
 const { element, by } = require("appdriver");
 
 (async () => {
   await element(by.label("button"))
-    .tap({ y: 50 });
+    .longPress({ x: 100, y: 25 });
 })();
 ```
 
 ## Related Methods
 
-- [`.doubleTap(options)`](./doubleTap.md)
-- [`.longPress(options)`](./longPress.md)
+- [`.tap(options)`](tap.md)
+- [`.doubleTap(options)`](doubleTap.md)
 
 ## Related Docs
 
-- [Click (Appium)](http://appium.io/docs/en/commands/element/actions/click/)
-- [Element Click (W3C)](https://www.w3.org/TR/webdriver/#element-click)
 - [W3C Actions (Appium)](http://appium.io/docs/en/commands/interactions/actions/)
 - [Actions (W3C)](https://www.w3.org/TR/webdriver/#actions)
