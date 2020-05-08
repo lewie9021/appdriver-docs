@@ -1,10 +1,10 @@
 ---
-id: intro
-title: Element
-sidebar_label: Introduction
+id: element
+title: element(matcher, options)
+sidebar_label: element(matcher, options)
 ---
 
-An Element provides a scoped way of interacting with the application. You will need to use a [Matcher](../matchers/intro.md) to define how an element is located. The most common is `by.label` which attempts to find by accessibility label.
+Locate an Element using a [Matcher](../matchers/intro.md). The most common is `by.label` which attempts to find by accessibility label.
 
 #### Parameters
 
