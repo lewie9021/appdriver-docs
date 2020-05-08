@@ -1,5 +1,9 @@
 {
   "docs": {
+    "Docs": [
+      "getting-started",
+      "guides/writing-your-first-test"
+    ],
     "API": [
       "configuration",
       {
