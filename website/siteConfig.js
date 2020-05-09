@@ -7,7 +7,7 @@ const siteConfig = {
   organizationName: "lewie9021",
   headerLinks: [
     {doc: "getting-started", label: "Docs"},
-    {doc: "api/configuration", label: "API"},
+    {doc: "api/device/device", label: "API"},
     {href: "https://github.com/lewie9021/appdriver", label: "GitHub"}
   ],
   algolia: {

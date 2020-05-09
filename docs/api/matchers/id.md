@@ -1,14 +1,14 @@
 ---
-id: by-id
-title: by.id(id)
-sidebar_label: by.id(id)
+id: id
+title: .id(id)
+sidebar_label: .id(id)
 ---
 
 Find element(s) by their ID. For Android this is the `resource-id` attribute, whereas for iOS it's the `name` attribute.
 
 #### Returns
 
-[`Matcher`](intro.md): A matcher to be used when finding elements.
+[`Matcher`](../../core-concepts/matchers.md): A matcher to be used when finding elements.
 
 ## Examples
 
@@ -34,4 +34,4 @@ const { elements, by } = require("appdriver");
 
 ## Related Methods
 
-- [`by.label(label)`](by-label.md)
+- [`by.label(label)`](./label.md)

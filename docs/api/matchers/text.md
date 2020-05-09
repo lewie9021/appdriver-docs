@@ -1,14 +1,14 @@
 ---
-id: by-text
-title: by.text(text)
-sidebar_label: by.text(text)
+id: text
+title: .text(text)
+sidebar_label: .text(text)
 ---
 
 Find element(s) by their text value.
 
 #### Returns
 
-[`Matcher`](intro.md): A matcher to be used when finding elements.
+[`Matcher`](../../core-concepts/matchers.md): A matcher to be used when finding elements.
 
 ## Examples
 

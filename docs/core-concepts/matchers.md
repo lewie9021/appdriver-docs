@@ -1,10 +1,10 @@
 ---
-id: intro
-title: Matcher
-sidebar_label: Introduction
+id: matchers
+title: Matchers
+sidebar_label: Matchers
 ---
 
-A Matcher defines how elements are located. There are several ways of searching for elements such as `by.label` and `by.text`. What's important is that you use a strategy that is reliable in your application and won't change often.
+Matchers define how elements are located. There are several ways of finding elements such as [`by.label`](../api/matchers/label.md) and [`by.text`](../api/matchers/text.md). What's important is that you use a strategy that is reliable in your application and won't change often.
 
 ## Examples
  

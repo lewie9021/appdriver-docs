@@ -1,14 +1,14 @@
 ---
-id: by-type
-title: by.type(type)
-sidebar_label: by.type(type)
+id: type
+title: .type(type)
+sidebar_label: .type(type)
 ---
 
 Find element(s) by their type.
 
 #### Returns
 
-[`Matcher`](intro.md): A matcher to be used when finding elements.
+[`Matcher`](../../core-concepts/matchers.md): A matcher to be used when finding elements.
 
 ## Examples
 

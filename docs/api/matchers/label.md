@@ -1,14 +1,14 @@
 ---
-id: by-label
-title: by.label(label)
-sidebar_label: by.label(label)
+id: label
+title: .label(label)
+sidebar_label: .label(label)
 ---
 
 Find element(s) by their accessibility label. For Android this is the `content-desc` attribute, whereas for iOS it's the `name` attribute.
 
 #### Returns
 
-[`Matcher`](intro.md): A matcher to be used when finding elements.
+[`Matcher`](../../core-concepts/matchers.md): A matcher to be used when finding elements.
 
 ## Examples
 
@@ -34,4 +34,4 @@ const { elements, by } = require("appdriver");
 
 ## Related Methods
 
-- [`by.id(id)`](by-id.md)
+- [`by.id(id)`](./id.md)

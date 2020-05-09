@@ -1,30 +1,45 @@
 {
   "docs": {
     "Introduction": [
-      "getting-started"
+      "getting-started",
+      "configuring-the-runner",
+      "writing-your-first-test"
+    ],
+    "Core Concepts": [
+      "core-concepts/runner",
+      "core-concepts/device",
+      "core-concepts/element",
+      "core-concepts/matchers",
+      "core-concepts/gestures",
+      "core-concepts/alerts",
+      "core-concepts/expect"
     ],
     "Guides": [
-      "guides/writing-your-first-test"
+      "guides/finding-elements",
+      "guides/advanced-inputs",
+      "guides/working-with-gestures",
+      "guides/interacting-with-webviews",
+      "guides/testing-react-native-apps",
+      "guides/visual-regression-testing",
+      "guides/typescript",
+      "guides/custom-reporters"
     ]
   },
   "api": {
-    "Runner": [
-      "api/configuration"
-    ],
-    "Matchers": [
-      "api/matchers/intro",
-      "api/matchers/by-id",
-      "api/matchers/by-label",
-      "api/matchers/by-text",
-      "api/matchers/by-type",
-      "api/matchers/by-iosPredicate",
-      "api/matchers/by-uiAutomator",
-      "api/matchers/by-xPath",
-      "api/matchers/by-css"
-    ],
-    "Element": [
+    "Main": [
+      "api/device/device",
       "api/element/element",
       "api/element/elements",
+      "api/matchers/matchers",
+      "api/gestures/gestures",
+      "api/alert/alert",
+      "api/expect/expect"
+    ],
+    "Runner": [
+      "api/runner/configuration",
+      "api/runner/reporters"
+    ],
+    "Element": [
       "api/element/getRef",
       "api/element/tap",
       "api/element/doubleTap",
@@ -57,6 +72,16 @@
       "api/element/swipeDown",
       "api/element/swipeLeft",
       "api/element/swipeRight"
+    ],
+    "Matchers": [
+      "api/matchers/id",
+      "api/matchers/label",
+      "api/matchers/text",
+      "api/matchers/type",
+      "api/matchers/iosPredicate",
+      "api/matchers/uiAutomator",
+      "api/matchers/xPath",
+      "api/matchers/css"
     ]
   }
 }

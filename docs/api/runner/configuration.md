@@ -32,7 +32,7 @@ The configuration file provides a way of tweaking AppDriver the way you want. Wh
 
 ## Examples
  
-Automate an iPhone X 12.4 simulator for a single spec file.
+Automate an iPhone X 13.3 simulator for a single spec file.
 
 ```javascript
 module.exports = {
@@ -43,18 +43,10 @@ module.exports = {
     capabilities: {
       automationName: "XCUITest",
       platformName: "iOS",
-      platformVersion: "12.4",
+      platformVersion: "13.3",
       deviceName: "iPhone X",
       app: "<path to app>"
     } 
   }]
 }
 ```
-
-## Reporters
-
-#### Basic
-
-This is the default reporter that simply outputs the status and duration of each test.
-
-<img width="100%" src="https://raw.githubusercontent.com/lewie9021/appdriver/master/docs/assets/basic-reporter.png">

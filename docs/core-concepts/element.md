@@ -1,16 +1,10 @@
 ---
 id: element
-title: element(matcher, options)
-sidebar_label: element(matcher, options)
+title: Element
+sidebar_label: Element
 ---
 
-Locate an Element using a [Matcher](../../core-concepts/matchers.md). The most common is `by.label` which attempts to find by accessibility label.
-
-#### Parameters
-
-1. `matcher` ([`Matcher`](../../core-concepts/matchers.md)): Matcher to define the locator strategy.
-2. `options` (`Object?`):
-  - `options.sliderRange` (`Tuple<Number, Number>?`): Provides cross-platform consistency when retrieving the value of a slider. The first number in the tuple is the minimum value, while the second number is the maximum value of the slider (e.g. `[0, 1]`).
+TODO: Description here.
 
 ## Examples
 
