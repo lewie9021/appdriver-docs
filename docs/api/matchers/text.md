@@ -6,6 +6,12 @@ sidebar_label: .text(text)
 
 Find element(s) by their text value.
 
+#### Usage
+
+```text
+by.text(text)
+```
+
 #### Returns
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.

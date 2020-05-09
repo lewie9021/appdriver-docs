@@ -6,6 +6,12 @@ sidebar_label: .id(id)
 
 Find element(s) by their ID. For Android this is the `resource-id` attribute, whereas for iOS it's the `name` attribute.
 
+#### Usage
+
+```text
+by.id(id)
+```
+
 #### Returns
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.

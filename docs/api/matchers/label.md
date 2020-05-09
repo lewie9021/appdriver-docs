@@ -6,6 +6,12 @@ sidebar_label: .label(label)
 
 Find element(s) by their accessibility label. For Android this is the `content-desc` attribute, whereas for iOS it's the `name` attribute.
 
+#### Usage
+
+```text
+by.label(label)
+```
+
 #### Returns
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.

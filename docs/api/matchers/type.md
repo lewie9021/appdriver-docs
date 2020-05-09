@@ -6,6 +6,12 @@ sidebar_label: .type(type)
 
 Find element(s) by their type.
 
+#### Usage
+
+```text
+by.type(type)
+```
+
 #### Returns
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.
