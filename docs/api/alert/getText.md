@@ -16,7 +16,17 @@ alert.getText()
 
 `Promise` (`String`): Alert text contents.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 #### Examples
+
+TODO: Description here.
 
 ```javascript
 const { alert, expect } = require("appdriver");

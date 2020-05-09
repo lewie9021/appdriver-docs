@@ -16,7 +16,17 @@ alert.isVisible()
 
 `Promise` (`Boolean`): Whether the alert is visible or not.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
+
+TODO: Description here.
 
 ```javascript
 const { alert, expect } = require("appdriver");

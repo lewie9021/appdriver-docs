@@ -20,7 +20,17 @@ alert.setValue(value)
 
 `Promise`: A promise that resolves once value has been set.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | No        |
+| Web      | Unknown   |
+
 ## Examples
+
+TODO: Description here.
 
 ```javascript
 const { alert } = require("appdriver");

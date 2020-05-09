@@ -16,6 +16,14 @@ alert.accept()
 
 `Promise`: A promise that resolves once the alert has been accepted and no longer visible.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 ```javascript

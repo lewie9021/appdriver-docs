@@ -16,7 +16,17 @@ alert.dismiss()
 
 `Promise`: A promise that resolves once the alert has been dismissed and no longer visible.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
+
+TODO: Description here.
 
 ```javascript
 const { element, by, alert, expect } = require("appdriver");

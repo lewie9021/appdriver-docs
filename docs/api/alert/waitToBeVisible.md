@@ -15,14 +15,24 @@ alert.waitToBeVisible(options)
 #### Parameters
 
 1. `options` (`Object?`):
-    - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to [`waitForInterval`](../configuration.md).
-    - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll before throwing. Defaults to [`waitForTimeout`](../configuration.md).
+    - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to [`waitForInterval`](../runner/configuration.md).
+    - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll before throwing. Defaults to [`waitForTimeout`](../runner/configuration.md).
 
 #### Returns
 
 `Promise`: A promise that resolves once an alert is visible.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
+
+TODO: Description here.
 
 ```javascript
 const { element, by, alert } = require("appdriver");
