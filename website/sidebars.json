@@ -26,6 +26,9 @@
     ]
   },
   "api": {
+    "Introduction": [
+      "api-reference"
+    ],
     "Main": [
       "api/device/device",
       "api/element/element",
