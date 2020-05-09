@@ -20,7 +20,7 @@
     "Introduction": [
       "api-reference"
     ],
-    "Main": [
+    "Core": [
       "api/device",
       "api/element",
       "api/elements",
@@ -32,6 +32,40 @@
     "Runner": [
       "api/runner/configuration",
       "api/runner/reporters"
+    ],
+    "Device": [
+      "api/device/name",
+      "api/device/platform",
+      "api/device/session",
+      "api/device/wait",
+      "api/device/waitFor",
+      "api/device/while",
+      "api/device/restartApp",
+      "api/device/resetApp",
+      "api/device/navigate",
+      "api/device/goBack",
+      "api/device/isPortrait",
+      "api/device/setPortrait",
+      "api/device/setLandscape",
+      "api/device/getViewport",
+      "api/device/takeScreenshot",
+      "api/device/startScreenRecording",
+      "api/device/stopScreenRecording",
+      "api/device/isKeyboardVisible",
+      "api/device/hideKeyboard",
+      "api/device/getContext",
+      "api/device/getContexts",
+      "api/device/switchContext",
+      "api/device/switchToWebContext",
+      "api/device/switchToNativeContext",
+      "api/device/execute",
+      "api/device/scroll",
+      "api/device/swipe",
+      "api/device/swipeUp",
+      "api/device/swipeDown",
+      "api/device/swipeLeft",
+      "api/device/swipeRight",
+      "api/device/performGesture"
     ],
     "Element": [
       "api/element/getRef",
@@ -50,6 +84,7 @@
       "api/element/isDisabled",
       "api/element/isSelected",
       "api/element/isFocused",
+      "api/element/getAttribute",
       "api/element/getLocation",
       "api/element/getSize",
       "api/element/takeScreenshot",
@@ -76,6 +111,53 @@
       "api/matchers/uiAutomator",
       "api/matchers/xPath",
       "api/matchers/css"
+    ],
+    "Gestures": [
+      "api/gestures/series",
+      "api/gestures/parallel",
+      "api/gestures/moveTo",
+      "api/gestures/press",
+      "api/gestures/release",
+      "api/gestures/wait",
+      "api/gestures/tap",
+      "api/gestures/doubleTap",
+      "api/gestures/longPress",
+      "api/gestures/swipe",
+      "api/gestures/swipeUp",
+      "api/gestures/swipeDown",
+      "api/gestures/swipeLeft",
+      "api/gestures/swipeRight",
+      "api/gestures/pinch",
+      "api/gestures/spread",
+      "api/gestures/rotate",
+      "api/gestures/dragAndDrop"
+    ],
+    "Alert": [
+      "api/alert/accept",
+      "api/alert/dismiss",
+      "api/alert/getText",
+      "api/alert/setValue",
+      "api/alert/isVisible",
+      "api/alert/waitToBeVisible"
+    ],
+    "Expect": [
+      "api/expect/not",
+      "api/expect/toHaveValue",
+      "api/expect/toHaveText",
+      "api/expect/toExist",
+      "api/expect/toBeVisible",
+      "api/expect/toBeDisabled",
+      "api/expect/toBeSelected",
+      "api/expect/toBeFocused",
+      "api/expect/toEqual",
+      "api/expect/toHaveLength",
+      "api/expect/toBeTruthy",
+      "api/expect/toBeFalsy",
+      "api/expect/toMatch",
+      "api/expect/toBeGreaterThanOrEqual",
+      "api/expect/toBeGreaterThan",
+      "api/expect/toBeLessThanOrEqual",
+      "api/expect/toBeLessThan"
     ]
   }
 }
