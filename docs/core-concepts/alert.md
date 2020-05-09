@@ -1,7 +1,7 @@
 ---
-id: alerts
-title: Alerts
-sidebar_label: Alerts
+id: alert
+title: Alert
+sidebar_label: Alert
 ---
 
 TODO: Description here.

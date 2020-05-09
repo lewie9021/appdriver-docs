@@ -11,7 +11,7 @@
       "core-concepts/element",
       "core-concepts/matchers",
       "core-concepts/gestures",
-      "core-concepts/alerts",
+      "core-concepts/alert",
       "core-concepts/expect"
     ],
     "Guides": [
