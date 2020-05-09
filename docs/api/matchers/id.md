@@ -16,6 +16,14 @@ by.id(id)
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Find an element with an id of "button".

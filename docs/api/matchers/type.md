@@ -16,6 +16,14 @@ by.type(type)
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Unknown   |
+
 ## Examples
 
 Find an iOS text input.
