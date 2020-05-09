@@ -6,6 +6,12 @@ sidebar_label: .session
 
 Returns the session identifier and capabilities.
 
+#### Usage
+
+```text
+device.session
+```
+
 #### Returns
 
 `Object`:
