@@ -15,12 +15,12 @@ const siteConfig = {
     indexName: "my-index-name",
     algoliaOptions: {} // Optional, if provided by Algolia
   },
-  headerIcon: "img/favicon.ico",
-  footerIcon: "img/favicon.ico",
-  favicon: "img/favicon.ico",
+  // headerIcon: "img/favicon.ico",
+  // footerIcon: "img/favicon.ico",
+  // favicon: "img/favicon.ico",
   colors: {
-    primaryColor: "#243da6",
-    secondaryColor: "#192a74",
+    primaryColor: "#a62424",
+    secondaryColor: "#741919",
   },
   copyright: `Copyright © ${new Date().getFullYear()} Lewis Barnes`,
   highlight: {
@@ -29,8 +29,6 @@ const siteConfig = {
   scripts: ["https://buttons.github.io/buttons.js"],
   onPageNav: "separate",
   cleanUrl: true,
-  ogImage: "img/undraw_online.svg",
-  twitterImage: "img/undraw_tweetstorm.svg",
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
