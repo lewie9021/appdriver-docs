@@ -4,7 +4,7 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
-> Note: Before you can successfully start writing tests with AppDriver, you must install Appium. For more information, see the [official Appium documentation](http://appium.io/docs/en/about-appium/getting-started/).
+> Note: To successfully run tests with AppDriver, you must setup [Appium](http://appium.io/). For more information, see the [official Appium documentation](http://appium.io/docs/en/about-appium/getting-started/).
 
 Install AppDriver via the NPM Repository:
 
