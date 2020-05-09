@@ -16,6 +16,14 @@ element(matcher).isVisible()
 
 `Promise` (`Boolean`): Element visibility status.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Visibility status of button:

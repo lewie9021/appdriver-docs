@@ -23,6 +23,14 @@ element(matcher).getLocation(options)
   - `x` (`Number`): x coordinate of element.
   - `y` (`Number`): y coordinate of element.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Absolute x and y coordinates of element:

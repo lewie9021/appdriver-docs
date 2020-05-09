@@ -16,6 +16,14 @@ element(matcher).getRef()
 
 `Promise` (`Object`): Appium element reference.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 ```javascript

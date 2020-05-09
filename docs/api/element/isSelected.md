@@ -16,6 +16,14 @@ element(matcher).isSelected()
 
 `Promise` (`Boolean`): Element selected status.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes (Appium 1.16.0+) |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Selected status of tab:

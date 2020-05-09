@@ -22,6 +22,14 @@ element(matcher).tap(options)
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Perform tap gesture at element center point:

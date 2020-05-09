@@ -22,6 +22,14 @@ element(matcher).doubleTap(options)
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | No        |
+
 ## Examples
 
 Perform double tap gesture at element center point:

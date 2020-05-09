@@ -20,6 +20,14 @@ element(matcher).setValue(value)
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Text input:

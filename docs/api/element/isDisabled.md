@@ -16,6 +16,14 @@ element(matcher).isDisabled()
 
 `Promise` (`Boolean`): Element disabled status.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Disabled status of text input:

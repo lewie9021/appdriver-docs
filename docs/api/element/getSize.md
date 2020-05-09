@@ -18,6 +18,14 @@ element(matcher).getSize()
   - `width` (`Number`): Width of element.
   - `height` (`Number`): Height of element.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Get width and height of button:

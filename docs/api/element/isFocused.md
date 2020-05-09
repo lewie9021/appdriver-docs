@@ -16,6 +16,14 @@ element(matcher).isFocused()
 
 `Promise` (`Boolean`): Element focused status.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | TODO      |
+
 ## Examples
 
 Text input:

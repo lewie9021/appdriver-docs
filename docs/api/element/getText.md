@@ -21,6 +21,14 @@ element(matcher).getText(options)
 
 `Promise` (`String`): Element text contents.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Text element:

@@ -16,6 +16,14 @@ element(matcher).getValue()
 
 `Promise` (`String | Number | Boolean`): Element value.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Text input:

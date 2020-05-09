@@ -16,6 +16,14 @@ element(matcher).exists()
 
 `Promise` (`Boolean`): Element existence status.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Existence status of button:

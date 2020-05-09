@@ -23,6 +23,14 @@ element(matcher).longPress(options)
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | No        |
+
 ## Examples
 
 Perform long press gesture at element center point:
