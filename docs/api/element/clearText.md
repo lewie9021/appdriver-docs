@@ -6,9 +6,15 @@ sidebar_label: .clearText()
 
 Wipes the contents of a text element.
 
+#### Usage
+
+```text
+element(matcher).clearText()
+```
+
 #### Returns
 
-[`Element`](./element): A new element to avoid mutation and allow function chaining.
+[`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 
@@ -32,8 +38,8 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.setValue(value)`](setValue.md)
-- [`.typeText(text)`](typeText.md)
+- [`.setValue(value)`](./setValue.md)
+- [`.typeText(text)`](./typeText.md)
 
 ## Related Docs
 

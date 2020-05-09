@@ -6,6 +6,12 @@ sidebar_label: .isFocused()
 
 Retrieves focused status of element.
 
+#### Usage
+
+```text
+element(matcher).isFocused()
+```
+
 #### Returns
 
 `Promise` (`Boolean`): Element focused status.
@@ -27,8 +33,8 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.isDisabled()`](isDisabled.md)
-- [`.isSelected()`](isSelected.md)
+- [`.isDisabled()`](./isDisabled.md)
+- [`.isSelected()`](./isSelected.md)
 
 ## Related Docs
 

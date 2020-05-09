@@ -6,6 +6,12 @@ sidebar_label: .getText(options)
 
 Retrieves text content of element.
 
+#### Usage
+
+```text
+element(matcher).getText(options)
+```
+
 #### Parameters
 
 1. `options` (`Object?`):
@@ -58,7 +64,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.getValue()`](getValue.md)
+- [`.getValue()`](./getValue.md)
 
 ## Related Docs
 

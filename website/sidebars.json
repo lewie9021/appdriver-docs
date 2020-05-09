@@ -5,15 +5,6 @@
       "configuring-the-runner",
       "writing-your-first-test"
     ],
-    "Core Concepts": [
-      "core-concepts/runner",
-      "core-concepts/device",
-      "core-concepts/element",
-      "core-concepts/matchers",
-      "core-concepts/gestures",
-      "core-concepts/alert",
-      "core-concepts/expect"
-    ],
     "Guides": [
       "guides/finding-elements",
       "guides/advanced-inputs",
@@ -30,13 +21,13 @@
       "api-reference"
     ],
     "Main": [
-      "api/device/device",
-      "api/element/element",
-      "api/element/elements",
-      "api/matchers/matchers",
-      "api/gestures/gestures",
-      "api/alert/alert",
-      "api/expect/expect"
+      "api/device",
+      "api/element",
+      "api/elements",
+      "api/matchers",
+      "api/gestures",
+      "api/alert",
+      "api/expect"
     ],
     "Runner": [
       "api/runner/configuration",

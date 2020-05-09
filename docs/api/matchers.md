@@ -4,7 +4,7 @@ title: Matchers
 sidebar_label: Matchers
 ---
 
-Matchers define how elements are located. There are several ways of finding elements such as [`by.label`](../api/matchers/label.md) and [`by.text`](../api/matchers/text.md). What's important is that you use a strategy that is reliable in your application and won't change often.
+Matchers define how elements are located. There are several ways of finding elements such as [`by.label`](matchers/label.md) and [`by.text`](matchers/text.md). What's important is that you use a strategy that is reliable in your application and won't change often.
 
 ## Examples
  

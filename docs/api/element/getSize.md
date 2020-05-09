@@ -6,6 +6,12 @@ sidebar_label: .getSize()
 
 Retrieves width and height of element.
 
+#### Usage
+
+```text
+element(matcher).getSize()
+```
+
 #### Returns
 
 `Promise` (`Object`):
@@ -32,7 +38,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.getLocation(options)`](getLocation.md)
+- [`.getLocation(options)`](./getLocation.md)
 
 ## Related Docs
 

@@ -1,7 +1,7 @@
 ---
 id: gestures
 title: Gestures
-sidebar_label: Gestures
+sidebar_label: Gestures 
 ---
 
 TODO: Description here.

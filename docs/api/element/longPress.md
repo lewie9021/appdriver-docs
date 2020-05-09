@@ -6,6 +6,12 @@ sidebar_label: .longPress(options)
 
 Performs long press gesture on the element.
 
+#### Usage
+
+```text
+element(matcher).longPress(options)
+```
+
 #### Parameters
 
 1. `options` (`Object?`):
@@ -15,7 +21,7 @@ Performs long press gesture on the element.
 
 #### Returns
 
-[`Element`](./element): A new element to avoid mutation and allow function chaining.
+[`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 
@@ -43,8 +49,8 @@ const { element, by } = require("appdriver");
 
 ## Related Methods
 
-- [`.tap(options)`](tap.md)
-- [`.doubleTap(options)`](doubleTap.md)
+- [`.tap(options)`](./tap.md)
+- [`.doubleTap(options)`](./doubleTap.md)
 
 ## Related Docs
 

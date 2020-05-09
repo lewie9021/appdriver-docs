@@ -6,6 +6,12 @@ sidebar_label: .getValue()
 
 Retrieves value of element.
 
+#### Usage
+
+```text
+element(matcher).getValue()
+```
+
 #### Returns
 
 `Promise` (`String | Number | Boolean`): Element value.
@@ -53,7 +59,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.getText(options)`](getText.md)
+- [`.getText(options)`](./getText.md)
 
 ## Related Docs
 

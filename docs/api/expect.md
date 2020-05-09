@@ -1,10 +1,20 @@
 ---
 id: expect
-title: expect(value)
-sidebar_label: expect(value)
+title: Expect
+sidebar_label: Expect
 ---
 
-TODO: Description here.
+`expect` is the out-of-the-box solution for asserting within tests. It is heavily inspired by Jest, favouring a sane autocomplete system.
+
+#### Usage
+
+```text
+expect(value)
+```
+
+#### Parameters
+
+1. `value` (`Any`): Value to assert.
 
 ## Examples
 

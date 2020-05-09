@@ -6,6 +6,12 @@ sidebar_label: .isVisible()
 
 Retrieves visibility status of element.
 
+#### Usage
+
+```text
+element(matcher).isVisible()
+```
+
 #### Returns
 
 `Promise` (`Boolean`): Element visibility status.
@@ -27,7 +33,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.exists()`](exists.md)
+- [`.exists()`](./exists.md)
 
 ## Related Docs
 

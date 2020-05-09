@@ -6,6 +6,12 @@ sidebar_label: .tap(options)
 
 Performs tap gesture on element.
 
+#### Usage
+
+```text
+element(matcher).tap(options)
+```
+
 #### Parameters
 
 1. `options` (`Object?`):
@@ -14,7 +20,7 @@ Performs tap gesture on element.
 
 #### Returns
 
-[`Element`](./element): A new element to avoid mutation and allow function chaining.
+[`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 
@@ -42,8 +48,8 @@ const { element, by } = require("appdriver");
 
 ## Related Methods
 
-- [`.doubleTap(options)`](doubleTap.md)
-- [`.longPress(options)`](longPress.md)
+- [`.doubleTap(options)`](./doubleTap.md)
+- [`.longPress(options)`](./longPress.md)
 
 ## Related Docs
 

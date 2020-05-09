@@ -6,6 +6,12 @@ sidebar_label: .getRef()
 
 Retrieves the element reference.
 
+#### Usage
+
+```text
+element(matcher).getRef()
+```
+
 #### Returns
 
 `Promise` (`Object`): Appium element reference.

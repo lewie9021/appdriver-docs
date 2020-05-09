@@ -6,6 +6,12 @@ sidebar_label: .getLocation(options)
 
 Retrieves x and y coordinates of element.
 
+#### Usage
+
+```text
+element(matcher).getLocation(options)
+```
+
 #### Parameters
 
 1. `options` (`Object?`):
@@ -53,7 +59,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.getSize()`](getSize.md)
+- [`.getSize()`](./getSize.md)
 
 ## Related Docs
 

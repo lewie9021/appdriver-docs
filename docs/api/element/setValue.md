@@ -6,13 +6,19 @@ sidebar_label: .setValue(value)
 
 Replaces element value, clearing existing input.
 
+#### Usage
+
+```text
+element(matcher).setValue(value)
+```
+
 #### Parameters
 
 1. `value` (`String | Number | Boolean`): Value to replace with.
 
 #### Returns
 
-[`Element`](./element): A new element to avoid mutation and allow function chaining.
+[`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 
@@ -64,8 +70,8 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.typeText(text)`](typeText.md)
-- [`.clearText()`](clearText.md)
+- [`.typeText(text)`](./typeText.md)
+- [`.clearText()`](./clearText.md)
 
 ## Related Docs
 

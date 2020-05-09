@@ -6,6 +6,12 @@ sidebar_label: .exists()
 
 Retrieve existence status of element.
 
+#### Usage
+
+```text
+element(matcher).exists()
+```
+
 #### Returns
 
 `Promise` (`Boolean`): Element existence status.
@@ -27,7 +33,7 @@ const { element, by, expect } = require("appdriver");
 
 ## Related Methods
 
-- [`.isVisible()`](isVisible.md)
+- [`.isVisible()`](./isVisible.md)
 
 ## Related Docs
 

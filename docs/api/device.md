@@ -1,7 +1,7 @@
 ---
 id: device
-title: device
-sidebar_label: device 
+title: Device
+sidebar_label: Device 
 ---
 
 TODO: Description here.

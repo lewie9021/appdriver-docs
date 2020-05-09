@@ -8,7 +8,7 @@ Find element(s) by their type.
 
 #### Returns
 
-[`Matcher`](../../core-concepts/matchers.md): A matcher to be used when finding elements.
+[`Matcher`](../matchers.md): A matcher to be used when finding elements.
 
 ## Examples
 

@@ -6,13 +6,19 @@ sidebar_label: .typeText(text)
 
 Using the virtual keyboard, types the given text into a text element.
 
+#### Usage
+
+```text
+element(matcher).typeText(text)
+```
+
 #### Parameters
 
 1. `text` (`String`): Text to type.
 
 #### Returns
 
-[`Element`](./element): A new element to avoid mutation and allow function chaining.
+[`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
 ## Examples
 
@@ -33,8 +39,8 @@ const { element, by } = require("appdriver");
 
 ## Related Methods
 
-- [`.setValue(value)`](setValue.md)
-- [`.clearText()`](clearText.md)
+- [`.setValue(value)`](./setValue.md)
+- [`.clearText()`](./clearText.md)
 
 ## Related Docs
 
