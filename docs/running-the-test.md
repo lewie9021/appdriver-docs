@@ -4,13 +4,13 @@ title: 3. Running The Test
 sidebar_label: 3. Running The Test
 ---
 
-Now we have configured AppDriver, it is time to run test script:
+To run our test, execute the AppDriver CLI with a path to the configuration file:
 
 ```bash
 ./node_modules/.bin/appdriver --config ./config/local.config.js
 ```
 
-Should you wish to alias the command above, simply modify your package.json file with a script command:
+Should you wish to alias the command above, simply modify the package.json file with a script command:
 
 ```json5
 {
