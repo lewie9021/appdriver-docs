@@ -4,7 +4,7 @@ title: .waitToBeVisible(options)
 sidebar_label: .waitToBeVisible(options)
 ---
 
-A handy [`.waitFor`](./waitFor.md) preset method for cases when elements may not be visible until some time in the future.
+Polls until the element is visible every `options.interval` or exceeds `options.maxDuration` timeout.
 
 #### Usage
 
