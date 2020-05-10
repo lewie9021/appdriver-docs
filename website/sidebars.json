@@ -33,6 +33,7 @@
       "api/expect"
     ],
     "Runner": [
+      "api/runner/cli-options",
       "api/runner/configuration",
       "api/runner/reporters"
     ],
