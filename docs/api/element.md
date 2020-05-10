@@ -16,7 +16,7 @@ element(matcher, options)
 
 1. `matcher` ([`Matcher`](matchers.md)): Matcher to define the locator strategy.
 2. `options` (`Object?`):
-  - `options.sliderRange` (`Tuple<Number, Number>?`): Provides cross-platform consistency when retrieving the value of a slider. The first number in the tuple is the minimum value, while the second number is the maximum value of the slider (e.g. `[0, 1]`).
+    - `options.sliderRange` (`Tuple<Number, Number>?`): Provides cross-platform consistency when retrieving the value of a slider. The first number in the tuple is the minimum value, while the second number is the maximum value of the slider (e.g. `[0, 1]`).
 
 #### Returns
 
