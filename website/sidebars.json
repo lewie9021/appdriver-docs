@@ -1,9 +1,12 @@
 {
   "docs": {
     "Introduction": [
-      "getting-started",
+      "getting-started"
+    ],
+    "Tutorial": [
       "configuring-the-runner",
-      "writing-your-first-test"
+      "writing-your-first-test",
+      "running-the-test"
     ],
     "Guides": [
       "guides/finding-elements",
