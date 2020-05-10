@@ -32,7 +32,9 @@ Check if the button exists:
 const { element, by, expect } = require("appdriver");
 
 (async () => {
-  await expect(element(by.label("button"))).toExist();
+  const $button = element(by.label("button"));
+
+  await expect($button).toExist();
 })();
 ```
 
