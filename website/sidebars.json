@@ -154,8 +154,8 @@
       "api/expect/toBeTruthy",
       "api/expect/toBeFalsy",
       "api/expect/toMatch",
-      "api/expect/toBeGreaterThanOrEqual",
-      "api/expect/toBeGreaterThan",
+      "api/expect/toBeMoreThanOrEqual",
+      "api/expect/toBeMoreThan",
       "api/expect/toBeLessThanOrEqual",
       "api/expect/toBeLessThan"
     ]
