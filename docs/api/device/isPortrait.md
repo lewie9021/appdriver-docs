@@ -26,7 +26,7 @@ device.isPortrait()
 
 ## Examples
 
-Check if the device is in a portrait orientation.
+Check if the device is in a portrait orientation:
 
 ```javascript
 const { device, expect } = require("appdriver");
