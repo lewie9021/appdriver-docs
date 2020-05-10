@@ -151,13 +151,13 @@
       "api/expect/toBeFocused",
       "api/expect/toEqual",
       "api/expect/toHaveLength",
-      "api/expect/toBeTruthy",
       "api/expect/toBeFalsy",
+      "api/expect/toBeTruthy",
       "api/expect/toMatch",
-      "api/expect/toBeMoreThanOrEqual",
-      "api/expect/toBeMoreThan",
+      "api/expect/toBeLessThan",
       "api/expect/toBeLessThanOrEqual",
-      "api/expect/toBeLessThan"
+      "api/expect/toBeMoreThan",
+      "api/expect/toBeMoreThanOrEqual"
     ]
   }
 }
