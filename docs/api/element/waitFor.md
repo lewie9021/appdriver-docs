@@ -6,7 +6,7 @@ sidebar_label: .waitFor(condition, options)
 
 Polls `condition` every `options.interval` until it resolves or `options.maxDuration` timeout is exceeded.
 
-This is useful when your tests need to wait until a particular condition is met. It's common to make use of `expect` as part of defining the `condition` function.
+This is useful when your tests need to wait until a particular condition is met. It's common to make use of [`expect`](../expect.md) as part of defining the `condition` function.
 
 #### Usage
 
