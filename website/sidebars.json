@@ -23,7 +23,7 @@
     "Introduction": [
       "api-reference"
     ],
-    "Core": [
+    "Top-Level": [
       "api/device",
       "api/element",
       "api/elements",
