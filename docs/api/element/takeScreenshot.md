@@ -19,7 +19,7 @@ element(matcher).takeScreenshot(options)
 
 #### Returns
 
-`Promise<Buffer>`: A promise containing a base64 buffer.
+`Promise` (`Buffer`): A promise containing a base64 buffer.
 
 #### Support
 
