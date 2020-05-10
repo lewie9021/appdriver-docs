@@ -4,7 +4,7 @@ title: Device
 sidebar_label: Device 
 ---
 
-TODO: Description here.
+The `device` object provides a way of performing interactions within the application that aren't directly linked with elements.
 
 #### Support
 

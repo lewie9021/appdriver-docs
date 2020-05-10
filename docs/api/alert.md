@@ -4,7 +4,7 @@ title: Alert
 sidebar_label: Alert 
 ---
 
-TODO: Description here.
+The `alert` object provides a way of interacting with native alerts.
 
 #### Support
 
