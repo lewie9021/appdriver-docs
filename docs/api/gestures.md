@@ -12,7 +12,7 @@ The `gestures` object provides a toolbox of presets and utility functions for co
 | -------- | --------- |
 | iOS      | Yes       |
 | Android  | Yes       |
-| Web      | No       |
+| Web      | No        |
 
 ## Examples
 
