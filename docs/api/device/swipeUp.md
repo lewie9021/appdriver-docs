@@ -1,6 +1,6 @@
 ---
 id: swipeUp
-title: .swipeUpoptions)
+title: .swipeUp(options)
 sidebar_label: .swipeUp(options)
 ---
 
