@@ -17,8 +17,8 @@ element(matcher).waitFor(condition, options)
 #### Parameters
 
 1. `condition` (`Function`):
-    - `element` (`Element`): Reference to current element to apply assertions against.
-    - `[ReturnType]` (`Promise`): Returning a Promise that rejects will retry until successfully resolving or exceeding `options.maxDuration`.
+    - `element` ([`Element`](../element.md)): Reference to current element to apply assertions against.
+    - `[ReturnType]` (`Promise`): Returning a Promise that rejects will retry until successfully resolved or exceeds `options.maxDuration`.
 2. `options` (`Object?`):
     - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to 200.
     - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll before throwing. Defaults to 10000.
