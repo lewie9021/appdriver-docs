@@ -6,6 +6,14 @@ sidebar_label: Alert
 
 TODO: Description here.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 TODO: Description here.

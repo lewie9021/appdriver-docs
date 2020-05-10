@@ -16,6 +16,14 @@ expect(value)
 
 1. `value` (`Any`): Value to assert.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 TODO: Description here.

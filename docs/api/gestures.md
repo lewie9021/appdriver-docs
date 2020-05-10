@@ -6,6 +6,14 @@ sidebar_label: Gestures
 
 TODO: Description here.
 
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | No       |
+
 ## Examples
 
 Rotate Gesture:

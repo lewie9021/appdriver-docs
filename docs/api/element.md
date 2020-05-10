@@ -18,6 +18,18 @@ element(matcher, options)
 2. `options` (`Object?`):
   - `options.sliderRange` (`Tuple<Number, Number>?`): Provides cross-platform consistency when retrieving the value of a slider. The first number in the tuple is the minimum value, while the second number is the maximum value of the slider (e.g. `[0, 1]`).
 
+#### Returns
+
+`Promise` ([`Element`](./element.md)): The first matching element.
+
+#### Support
+
+| Platform | Supported |
+| -------- | --------- |
+| iOS      | Yes       |
+| Android  | Yes       |
+| Web      | Yes       |
+
 ## Examples
 
 Input text.
