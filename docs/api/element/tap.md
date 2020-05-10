@@ -28,7 +28,7 @@ element(matcher).tap(options)
 | -------- | --------- |
 | iOS      | Yes       |
 | Android  | Yes       |
-| Web      | Yes       |
+| Web      | Partial   |
 
 ## Examples
 
@@ -53,6 +53,10 @@ const { element, by } = require("appdriver");
     .tap({ y: 50 });
 })();
 ```
+
+## Known Issues
+
+- `options` are not supported within the Web context.
 
 ## Related Methods
 
