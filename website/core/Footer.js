@@ -34,17 +34,17 @@ class Footer extends React.Component {
             <a href={this.docUrl('getting-started.html')}>
               Getting Started
             </a>
-            <a href={this.docUrl('core-concepts/device.html')}>
-              Core Concepts
+            <a href={this.docUrl('configuring-the-runner.html')}>
+              Tutorial
             </a>
           </div>
           <div>
-            <h5>Community</h5>
-            <a
-              href="https://stackoverflow.com/questions/tagged/appdriver"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
+            <h5>API</h5>
+            <a href={this.docUrl('api/device.html')}>
+              Top-level
+            </a>
+            <a href={this.docUrl('api/runner/cli-options.html')}>
+              Runner
             </a>
           </div>
           <div>
