@@ -4,9 +4,9 @@
       "getting-started"
     ],
     "Tutorial": [
-      "configuring-the-runner",
-      "writing-your-first-test",
-      "running-the-test"
+      "tutorial/configuring-the-runner",
+      "tutorial/writing-your-first-test",
+      "tutorial/running-the-test"
     ],
     "Guides": [
       "guides/finding-elements",

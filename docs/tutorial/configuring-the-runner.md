@@ -6,7 +6,7 @@ sidebar_label: 1. Configuring The Runner
 
 > Note: For this tutorial we will be using [My First Testing App](https://github.com/lewie9021/appdriver/tree/master/examples/my-first-testing-app/config/app).
 
-Before we can run a test script, we must first define our AppDriver [configuration](./api/runner/configuration.md) file:
+Before we can run a test script, we must first define our AppDriver [configuration](../api/runner/configuration.md) file:
 
 **config/local.config.js**
 ```javascript
