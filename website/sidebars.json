@@ -162,6 +162,57 @@
       "api/expect/toBeLessThanOrEqual",
       "api/expect/toBeMoreThan",
       "api/expect/toBeMoreThanOrEqual"
+    ],
+    "Proposals": [
+      {
+        "type": "subcategory",
+        "label": "Runner",
+        "ids": [
+          "api/proposals/runner/configuration"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Device",
+        "ids": [
+          "api/proposals/device/isReal",
+          "api/proposals/device/getSource",
+          "api/proposals/device/getGeoLocation",
+          "api/proposals/device/setGeoLocation",
+          "api/proposals/device/getClipboard",
+          "api/proposals/device/setClipboard",
+          "api/proposals/device/toggleAirplaneMode",
+          "api/proposals/device/toggleWifi",
+          "api/proposals/device/toggleLocation",
+          "api/proposals/device/sendSms",
+          "api/proposals/device/getSettings",
+          "api/proposals/device/readFile",
+          "api/proposals/device/writeFile"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Element",
+        "ids": [
+          "api/proposals/element/while",
+          "api/proposals/element/getAttribute",
+          "api/proposals/element/swipeIntoView"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Matchers",
+        "ids": [
+          "api/proposals/matchers/ref"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Matchers",
+        "ids": [
+          "api/proposals/expect/toHaveAttribute"
+        ]
+      }
     ]
   }
 }
