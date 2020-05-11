@@ -12,5 +12,5 @@ Since AppDriver is still in beta, not all functionality has been implemented or 
 
 | Icon | Description |
 |:----:|-------------|
-| 🔨   | Lacking docs |
+| 🔨   | Implemented but lacks documentation |
 | ⚠️   | Needs implementing |
