@@ -88,7 +88,6 @@
       "api/element/isDisabled",
       "api/element/isSelected",
       "api/element/isFocused",
-      "api/element/getAttribute",
       "api/element/getLocation",
       "api/element/getSize",
       "api/element/takeScreenshot",

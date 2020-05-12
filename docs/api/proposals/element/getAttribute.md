@@ -20,7 +20,7 @@ element(matcher).getAttribute(attribute)
 
 #### Returns
 
-[`Element`](../../element.md): A new element to avoid mutation and allow function chaining.
+`Promise` (`Any`): TODO: Description here.
 
 #### Support
 
