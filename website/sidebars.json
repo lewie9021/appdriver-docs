@@ -186,6 +186,7 @@
           "api/proposals/device/toggleLocation",
           "api/proposals/device/sendSms",
           "api/proposals/device/getSettings",
+          "api/proposals/device/setSettings",
           "api/proposals/device/readFile",
           "api/proposals/device/writeFile"
         ]
