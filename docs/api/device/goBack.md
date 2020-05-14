@@ -4,7 +4,7 @@ title: .goBack()
 sidebar_label: .goBack()
 ---
 
-Go to the previous screen. On Android, this will be the hardware back button.
+Go to the previous screen. On Android, this will use the hardware back button.
 
 #### Usage
 
