@@ -208,9 +208,16 @@
       },
       {
         "type": "subcategory",
-        "label": "Matchers",
+        "label": "Expect",
         "ids": [
           "api/proposals/expect/toHaveAttribute"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Utils",
+        "ids": [
+          "api/proposals/utils/selectPlatform"
         ]
       }
     ]
