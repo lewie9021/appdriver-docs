@@ -4,7 +4,7 @@ title: .getAttribute(attribute)
 sidebar_label: .getAttribute(attribute)
 ---
 
-Retrieves attribute of element.
+Retrieves attribute value of element.
 
 #### Usage
 
@@ -14,11 +14,11 @@ element(matcher).getAttribute(attribute)
 
 #### Parameters
 
-1. `attribute` (`String`): TODO: Description here.
+1. `attribute` (`String`): Name of attribute. See [iOS](#attributes-ios) and [Android](#attributes-android) for available attributes.
 
 #### Returns
 
-`Promise` (`Any`): TODO: Description here.
+`Promise` (`Any`): Element attribute value.
 
 #### Support
 
