@@ -1,10 +1,8 @@
 ---
 id: toHaveAttribute
-title: 🔬 .toHaveAttribute(attribute, value)
-sidebar_label: 🔬 .toHaveAttribute(attribute, value)
+title: .toHaveAttribute(attribute, value)
+sidebar_label: .toHaveAttribute(attribute, value)
 ---
-
-> This is a proposal for functionality that **may** be implemented in the future.
 
 Asserts the element has `attribute` strictly equal to `value`.
 
@@ -16,8 +14,8 @@ expect(value).toHaveAttribute(attribute, value)
 
 #### Parameters
 
-1. `attribute` (`String`): TODO: Description here.
-2. `value` (`Any`): TODO: Description here.
+1. `attribute` (`String`): Name of attribute. See [`.getAttribute`](../element/getAttribute.md) for available attributes.
+2. `value` (`Any`): Value to compare against the element's attribute.
 
 #### Returns
 

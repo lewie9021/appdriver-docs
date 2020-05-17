@@ -153,6 +153,7 @@
       "api/expect/toBeDisabled",
       "api/expect/toBeSelected",
       "api/expect/toBeFocused",
+      "api/expect/toHaveAttribute",
       "api/expect/toEqual",
       "api/expect/toHaveLength",
       "api/expect/toBeFalsy",
@@ -204,13 +205,6 @@
         "label": "Matchers",
         "ids": [
           "api/proposals/matchers/ref"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Expect",
-        "ids": [
-          "api/proposals/expect/toHaveAttribute"
         ]
       },
       {
