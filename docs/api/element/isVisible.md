@@ -6,17 +6,17 @@ sidebar_label: .isVisible()
 
 Retrieves visibility status of element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).isVisible()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Boolean`): Element visibility status.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ element(matcher).isVisible()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Visibility status of button:
 
@@ -39,10 +39,10 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.exists()`](./exists.md)
 
-## Related Docs
+### Related Docs
 
 - [Is Element Displayed (Appium)](http://appium.io/docs/en/commands/element/attributes/displayed/)

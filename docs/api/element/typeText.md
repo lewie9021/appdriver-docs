@@ -6,21 +6,21 @@ sidebar_label: .typeText(text)
 
 Using the virtual keyboard, types the given text into a text element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).typeText(text)
 ```
 
-#### Parameters
+### Parameters
 
 1. `text` (`String`): Text to type.
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -28,7 +28,7 @@ element(matcher).typeText(text)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Basic text input.
 
@@ -41,16 +41,16 @@ const { element, by } = require("appdriver");
 })();
 ```
 
-## Known Issues
+### Known Issues
 
 - iOS simulators fail to input text when the hardware keyboard is connected. Ensure `Hardware > Keyboard > Connect Hardware Keyboard` is unchecked.
 
-## Related Methods
+### Related Methods
 
 - [`.setValue(value)`](./setValue.md)
 - [`.clearText()`](./clearText.md)
 
-## Related Docs
+### Related Docs
 
 - [Send Keys (Appium)](http://appium.io/docs/en/commands/element/actions/send-keys/)
 - [Element Send Keys (W3C)](https://www.w3.org/TR/webdriver/#dfn-element-send-keys)

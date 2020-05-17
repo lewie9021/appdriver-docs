@@ -6,22 +6,22 @@ sidebar_label: .getText(options)
 
 Retrieves text content of element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).getText(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.recursive` (`Boolean?`): Determines whether to recursively retrieve the inner text. Often useful on Android when text is fragmented, but can be used to retrieve text from grouping elements such as list items. Defaults to false.
 
-#### Returns
+### Returns
 
 `Promise` (`String`): Element text contents.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -29,7 +29,7 @@ element(matcher).getText(options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Text element:
 
@@ -70,11 +70,11 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.getValue()`](./getValue.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Element Text (Appium)](http://appium.io/docs/en/commands/element/attributes/text/)
 - [Get Element Text (W3C)](https://www.w3.org/TR/webdriver/#dfn-get-element-text)

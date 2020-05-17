@@ -6,17 +6,17 @@ sidebar_label: .getRef()
 
 Retrieves the element reference.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).getRef()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Object`): Appium element reference.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ element(matcher).getRef()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 ```javascript
 const { element, by, expect } = require("appdriver");

@@ -6,17 +6,17 @@ sidebar_label: .exists()
 
 Retrieve existence status of element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).exists()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Boolean`): Element existence status.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ element(matcher).exists()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Existence status of button:
 
@@ -39,11 +39,11 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.isVisible()`](./isVisible.md)
 
-## Related Docs
+### Related Docs
 
 - [Find Element (Appium)](http://appium.io/docs/en/commands/element/find-element/)
 - [Find Element (W3C)](https://www.w3.org/TR/webdriver/#find-element)

@@ -6,21 +6,21 @@ sidebar_label: .getAttribute(attribute)
 
 Retrieves attribute value of element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).getAttribute(attribute)
 ```
 
-#### Parameters
+### Parameters
 
 1. `attribute` (`String`): Name of attribute. See [iOS](#attributes-ios) and [Android](#attributes-android) for available attributes.
 
-#### Returns
+### Returns
 
 `Promise` (`Any`): Element attribute value.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -70,7 +70,7 @@ element(matcher).getAttribute(attribute)
 | displayed | `Boolean` |
 | contentSize | `Object` |
 
-## Examples
+### Examples
 
 Get button "enabled" attribute:
 
@@ -121,13 +121,13 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Known Issues
+### Known Issues
 
 - `frame` (iOS) consistently returns a 500 error.
 - `value` (iOS) is `null` for empty text inputs.
 - `contentSize` (Android) only works with scroll views.
 
-## Related Docs
+### Related Docs
 
 - [Get Element Attribute (Appium)](http://appium.io/docs/en/commands/element/attributes/attribute/)
 - [Get Element Attribute (W3C)](https://www.w3.org/TR/webdriver/#dfn-get-element-attribute)

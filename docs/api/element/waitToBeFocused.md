@@ -6,23 +6,23 @@ sidebar_label: .waitToBeFocused(options)
 
 Polls until the element is focused every `options.interval` or exceeds `options.maxDuration` timeout.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).waitToBeFocused(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to 200.
     - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll for before throwing. Defaults to 10000.
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -30,7 +30,7 @@ element(matcher).waitToBeFocused(options)
 | Android  | Yes       |
 | Web      | TODO      |
 
-## Examples
+### Examples
 
 Wait for an input to be focused:
 
@@ -43,7 +43,7 @@ const { element, by } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.waitFor(condition, options)`](./waitFor.md)
 - [`.waitToBeVisible(options)`](./waitToBeVisible.md)
@@ -51,7 +51,7 @@ const { element, by } = require("appdriver");
 - [`.waitToExist(options)`](./waitToExist.md)
 - [`.waitToNotExist(options)`](./waitToNotExist.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Active Element (Appium)](http://appium.io/docs/en/commands/element/other/active/)
 - [Get Active Element (W3C)](https://www.w3.org/TR/webdriver/#get-active-element)

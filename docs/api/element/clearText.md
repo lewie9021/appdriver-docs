@@ -6,17 +6,17 @@ sidebar_label: .clearText()
 
 Wipes the contents of a text element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).clearText()
 ```
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ element(matcher).clearText()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Clear text input:
 
@@ -39,17 +39,17 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Known Issues
+### Known Issues
 
 - iOS simulators fail to clear text when the hardware keyboard is connected. Ensure `Hardware > Keyboard > Connect Hardware Keyboard` is unchecked.
 - Inputs fail to clear when using Xcode 11.x and iOS 12.x and below: ([GitHub issue](https://github.com/appium/appium/issues/13288)).
 
-## Related Methods
+### Related Methods
 
 - [`.setValue(value)`](./setValue.md)
 - [`.typeText(text)`](./typeText.md)
 
-## Related Docs
+### Related Docs
 
 - [Clear Element (Appium)](http://appium.io/docs/en/commands/element/actions/clear/)
 - [Element Clear (W3C)](https://www.w3.org/TR/webdriver/#element-clear)

@@ -6,23 +6,23 @@ sidebar_label: .findElement(matcher, options)
 
 Retrieves matching element found within parent. Useful when a direct locator strategy isn't available unless scoped to an element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).findElement(matcher, options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `matcher` ([`Matcher`](../matchers.md)): Matcher to define the locator strategy.
 2. `options` (`Object?`):
     - `options.sliderRange` (`Tuple<Number, Number>?`): Provides cross-platform consistency when retrieving the value of a slider. The first number in the tuple is the minimum value, while the second number is the maximum value of the slider (e.g. `[0, 1]`).
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): The first matching element found within parent.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -30,7 +30,7 @@ element(matcher).findElement(matcher, options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Find text element within button:
 
@@ -45,10 +45,10 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.findElements(matcher, options)`](./findElements.md)
 
-## Related Docs
+### Related Docs
 
 - [Find Element From Element (W3C)](https://www.w3.org/TR/webdriver/#find-element-from-element)

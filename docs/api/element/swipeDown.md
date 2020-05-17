@@ -6,13 +6,13 @@ sidebar_label: .swipeDown(options)
 
 Performs a swipe down gesture on the element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).swipeDown(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.x` (`Number?`): X coordinate to begin the gesture from. Defaults to 0.
@@ -21,11 +21,11 @@ element(matcher).swipeDown(options)
     - `options.percentage` (`Number?`): Percentage distance (0-1) of swipe relative to the height of the element. Required if `distance` isn't provided. 
     - `options.duration` (`Number?`): Time in milliseconds to perform the swipe gesture.
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -33,7 +33,7 @@ element(matcher).swipeDown(options)
 | Android  | Yes       |
 | Web      | No        |
 
-## Examples
+### Examples
 
 Swipe down 48 pixels. This will swipe down from the coordinate (100, 0) to (100, 48), relative to the element:
 
@@ -57,14 +57,14 @@ const { element, by } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.swipe(options)`](./swipe.md)
 - [`.swipeUp(options)`](./swipeUp.md)
 - [`.swipeLeft(options)`](./swipeLeft.md)
 - [`.swipeRight(options)`](./swipeRight.md)
 
-## Related Docs
+### Related Docs
 
 - [W3C Actions (Appium)](http://appium.io/docs/en/commands/interactions/actions/)
 - [Actions (W3C)](https://www.w3.org/TR/webdriver/#actions)

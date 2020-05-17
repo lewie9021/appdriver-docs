@@ -6,23 +6,23 @@ sidebar_label: .waitToBeInvisible(options)
 
 Polls until the element is invisible every `options.interval` or exceeds `options.maxDuration` timeout.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).waitToBeInvisible(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to 200.
     - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll for before throwing. Defaults to 10000.
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -30,7 +30,7 @@ element(matcher).waitToBeInvisible(options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Wait for a button to be invisible:
 
@@ -43,7 +43,7 @@ const { element, by } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.waitFor(condition, options)`](./waitFor.md)
 - [`.waitToExist(options)`](./waitToExist.md)
@@ -51,6 +51,6 @@ const { element, by } = require("appdriver");
 - [`.waitToNotExist(options)`](./waitToNotExist.md)
 - [`.waitToBeFocused(options)`](./waitToBeFocused.md)
 
-## Related Docs
+### Related Docs
 
 - [Is Element Displayed (Appium)](http://appium.io/docs/en/commands/element/attributes/displayed/)

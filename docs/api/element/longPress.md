@@ -6,24 +6,24 @@ sidebar_label: .longPress(options)
 
 Performs long press gesture on the element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).longPress(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.x` (`Number?`): x offset from left of element. Defaults to center point.
     - `options.y` (`Number?`): y offset from top of element. Defaults to center point.
     - `options.duration` (`Number?`): Time in milliseconds to perform the press gesture. Defaults to 750.
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -31,7 +31,7 @@ element(matcher).longPress(options)
 | Android  | Yes       |
 | Web      | No        |
 
-## Examples
+### Examples
 
 Perform long press gesture at element center point:
 
@@ -55,12 +55,12 @@ const { element, by } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.tap(options)`](./tap.md)
 - [`.doubleTap(options)`](./doubleTap.md)
 
-## Related Docs
+### Related Docs
 
 - [W3C Actions (Appium)](http://appium.io/docs/en/commands/interactions/actions/)
 - [Actions (W3C)](https://www.w3.org/TR/webdriver/#actions)

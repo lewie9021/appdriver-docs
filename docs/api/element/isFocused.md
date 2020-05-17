@@ -6,17 +6,17 @@ sidebar_label: .isFocused()
 
 Retrieves focused status of element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).isFocused()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Boolean`): Element focused status.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ element(matcher).isFocused()
 | Android  | Yes       |
 | Web      | TODO      |
 
-## Examples
+### Examples
 
 Text input:
 
@@ -39,12 +39,12 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.isDisabled()`](./isDisabled.md)
 - [`.isSelected()`](./isSelected.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Active Element (Appium)](http://appium.io/docs/en/commands/element/other/active/)
 - [Get Active Element (W3C)](https://www.w3.org/TR/webdriver/#get-active-element)

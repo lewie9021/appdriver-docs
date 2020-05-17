@@ -6,23 +6,23 @@ sidebar_label: .findElements(matcher, options)
 
 Retrieves matching elements found within parent. Useful when a direct locator strategy isn't available unless scoped to an element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).findElements(matcher, options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `matcher` ([`Matcher`](../matchers.md)): Matcher to define the locator strategy.
 2. `options` (`Object?`):
     - `options.sliderRange` (`Tuple<Number, Number>?`): Provides cross-platform consistency when retrieving the value of a slider. The first number in the tuple is the minimum value, while the second number is the maximum value of the slider (e.g. `[0, 1]`).
 
-#### Returns
+### Returns
 
 `Promise` ([`Array<Element>`](../element.md)): Array of matching elements found within parent.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -30,7 +30,7 @@ element(matcher).findElements(matcher, options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Find list items within scroll view:
 
@@ -45,10 +45,10 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.findElement(matcher, options)`](./findElement.md)
 
-## Related Docs
+### Related Docs
 
 - [Find Elements From Element (W3C)](https://www.w3.org/TR/webdriver/#find-elements-from-element)

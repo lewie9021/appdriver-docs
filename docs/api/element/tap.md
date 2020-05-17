@@ -6,23 +6,23 @@ sidebar_label: .tap(options)
 
 Performs tap gesture on element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).tap(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.x` (`Number?`): x offset from left of element. Defaults to center point.
     - `options.y` (`Number?`): y offset from top of element. Defaults to center point.
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -30,7 +30,7 @@ element(matcher).tap(options)
 | Android  | Yes       |
 | Web      | Partial   |
 
-## Examples
+### Examples
 
 Perform tap gesture at element center point:
 
@@ -54,16 +54,16 @@ const { element, by } = require("appdriver");
 })();
 ```
 
-## Known Issues
+### Known Issues
 
 - `options` are not supported within the Web context.
 
-## Related Methods
+### Related Methods
 
 - [`.doubleTap(options)`](./doubleTap.md)
 - [`.longPress(options)`](./longPress.md)
 
-## Related Docs
+### Related Docs
 
 - [Click (Appium)](http://appium.io/docs/en/commands/element/actions/click/)
 - [Element Click (W3C)](https://www.w3.org/TR/webdriver/#element-click)

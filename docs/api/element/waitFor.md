@@ -8,13 +8,13 @@ Polls `condition` every `options.interval` until it resolves or `options.maxDura
 
 This is useful when your tests need to wait until a particular condition is met. It's common to use [`expect`](../expect.md) as part of defining the `condition` function.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).waitFor(condition, options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `condition` (`Function`):
     - `element` ([`Element`](../element.md)): Reference to current element to apply assertions against.
@@ -23,11 +23,11 @@ element(matcher).waitFor(condition, options)
     - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to 200.
     - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll before throwing. Defaults to 10000.
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -35,7 +35,7 @@ element(matcher).waitFor(condition, options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 [`.waitToBeInvisible`](./waitToBeInvisible.md) re-implementation:
 
@@ -70,7 +70,7 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.waitToBeVisible(options)`](./waitToBeVisible.md)
 - [`.waitToExist(options)`](./waitToExist.md)

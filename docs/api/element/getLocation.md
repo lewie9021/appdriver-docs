@@ -6,24 +6,24 @@ sidebar_label: .getLocation(options)
 
 Retrieves x and y coordinates of element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).getLocation(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.relative` (Boolean?): Determines if the location should be calculated relative to the viewpoint. Defaults to false.
 
-#### Returns
+### Returns
 
 `Promise` (`Object`):
   - `x` (`Number`): x coordinate of element.
   - `y` (`Number`): y coordinate of element.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -31,7 +31,7 @@ element(matcher).getLocation(options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Absolute x and y coordinates of element:
 
@@ -65,11 +65,11 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.getSize()`](./getSize.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Element Location (Appium)](http://appium.io/docs/en/commands/element/attributes/location/)
 - [Get Element Location In View (Appium)](http://appium.io/docs/en/commands/element/attributes/location-in-view/)

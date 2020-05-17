@@ -6,17 +6,17 @@ sidebar_label: .getValue()
 
 Retrieves value of element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).getValue()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`String | Number | Boolean`): Element value.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ element(matcher).getValue()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Text input:
 
@@ -65,11 +65,11 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.getText(options)`](./getText.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Element Attribute (Appium)](http://appium.io/docs/en/commands/element/attributes/attribute/)
 - [Get Element Attribute (W3C)](https://www.w3.org/TR/webdriver/#dfn-get-element-attribute)

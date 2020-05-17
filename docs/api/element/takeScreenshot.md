@@ -6,22 +6,22 @@ sidebar_label: .takeScreenshot(options)
 
 Takes a screenshot (PNG) of the element within the viewport and saves the result on disk at the given `filePath` location.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).takeScreenshot(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.filePath` (`String?`): Absolute path on disk to store the screenshot.
 
-#### Returns
+### Returns
 
 `Promise` (`Buffer`): A promise containing a base64 buffer.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -29,7 +29,7 @@ element(matcher).takeScreenshot(options)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Take a screenshot of the element and save in a relative 'screenshots' directory.
 
@@ -43,6 +43,6 @@ const path = require("path");
 })();
 ```
 
-## Related Docs
+### Related Docs
 
 - [Take Element Screenshot (W3C)](https://www.w3.org/TR/webdriver/#dfn-take-element-screenshot)

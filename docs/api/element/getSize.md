@@ -6,19 +6,19 @@ sidebar_label: .getSize()
 
 Retrieves width and height of element.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).getSize()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Object`):
   - `width` (`Number`): Width of element.
   - `height` (`Number`): Height of element.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ element(matcher).getSize()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Get width and height of button:
 
@@ -44,10 +44,10 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.getLocation(options)`](./getLocation.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Element Size (Appium)](http://appium.io/docs/en/commands/element/attributes/size/)

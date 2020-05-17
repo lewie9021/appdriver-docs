@@ -6,23 +6,23 @@ sidebar_label: .waitToNotExist(options)
 
 Polls until the element no longer exists every `options.interval` or exceeds `options.maxDuration` timeout.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).waitToNotExist(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to 200.
     - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll for before throwing. Defaults to 10000.
 
-#### Returns
+### Returns
 
 [`Element`](../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -30,7 +30,7 @@ element(matcher).waitToNotExist(options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Wait for a button to no longer exist:
 
@@ -43,7 +43,7 @@ const { element, by } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.waitFor(condition, options)`](./waitFor.md)
 - [`.waitToBeVisible(options)`](./waitToBeVisible.md)
@@ -51,7 +51,7 @@ const { element, by } = require("appdriver");
 - [`.waitToExist(options)`](./waitToExist.md)
 - [`.waitToBeFocused(options)`](./waitToBeFocused.md)
 
-## Related Docs
+### Related Docs
 
 - [Find Element (Appium)](http://appium.io/docs/en/commands/element/find-element/)
 - [Find Element (W3C)](https://www.w3.org/TR/webdriver/#find-element)
