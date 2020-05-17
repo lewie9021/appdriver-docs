@@ -6,21 +6,21 @@ sidebar_label: .setValue(value)
 
 Replaces alert value, clearing existing input.
 
-#### Usage
+### Usage
 
 ```text
 alert.setValue(value)
 ```
 
-#### Parameters
+### Parameters
 
 1. `value` (`String`): Value to replace with.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves once value has been set.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -28,7 +28,7 @@ alert.setValue(value)
 | Android  | No        |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 TODO: Description here.
 
@@ -40,11 +40,11 @@ const { alert } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.getText()`](./getText.md)
 - [`.isVisible()`](./isVisible.md)
 
-## Related Docs
+### Related Docs
 
 - [Send Alert Text (W3C)](https://www.w3.org/TR/webdriver/#send-alert-text)

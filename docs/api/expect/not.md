@@ -6,17 +6,17 @@ sidebar_label: .not
 
 Inverts the chained assertion to test the opposite.
 
-#### Usage
+### Usage
 
 ```text
 expect(value).not
 ```
 
-#### Returns
+### Returns
 
 `Expect`: An Expect instance to allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ expect(value).not
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Not visible:
 

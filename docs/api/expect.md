@@ -6,17 +6,17 @@ sidebar_label: Expect
 
 `expect` is the out-of-the-box solution for asserting within tests. It is heavily inspired by Jest, favouring a sane autocomplete system.
 
-#### Usage
+### Usage
 
 ```text
 expect(value)
 ```
 
-#### Parameters
+### Parameters
 
 1. `value` (`Any`): Value to assert.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ expect(value)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 TODO: Description here.
 

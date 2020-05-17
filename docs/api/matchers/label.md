@@ -6,17 +6,17 @@ sidebar_label: .label(label)
 
 Find element(s) by their accessibility label. For Android this is the `content-desc` attribute, whereas for iOS it's the `name` attribute.
 
-#### Usage
+### Usage
 
 ```text
 by.label(label)
 ```
 
-#### Returns
+### Returns
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ by.label(label)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Find an element with a label of "text-input".
 
@@ -46,6 +46,6 @@ const { elements, by } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`by.id(id)`](./id.md)

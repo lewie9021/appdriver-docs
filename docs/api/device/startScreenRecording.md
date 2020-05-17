@@ -6,13 +6,13 @@ sidebar_label: .startScreenRecording(options)
 
 Starts recording the entire screen. See [`.stopScreenRecording`](./stopScreenRecording.md) to stop the recording.
 
-#### Usage
+### Usage
 
 ```text
 device.startScreenRecording(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.filePath` (`String?`): Absolute path on disk to store the recording once stopped.
@@ -25,11 +25,11 @@ device.startScreenRecording(options)
       - `options.size.width` (`Number`): Android only. Width of the video.
       - `options.size.height` (`Number`): Android only. Height of the video.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves once the recording has successfully started.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -37,7 +37,7 @@ device.startScreenRecording(options)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Start a screen recording:
 
@@ -71,11 +71,11 @@ const path = require("path");
 })();
 ```
 
-## Known Issues
+### Known Issues
 
 - In some cases the video returned isn't playable with particular versions of Appium and combinations of parameters such as `format`. For instance, using Appium `1.12.x` with a format of `mpeg4` would save a file that wasn't playable.
 
-## Related Methods
+### Related Methods
 
 - [`.takeScreenshot(options)`](./takeScreenshot.md)
 - [`.stopScreenRecording()`](./stopScreenRecording.md)

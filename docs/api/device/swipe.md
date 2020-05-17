@@ -6,13 +6,13 @@ sidebar_label: .swipe(options)
 
 Performs a swipe gesture in the context of the device viewport.
 
-#### Usage
+### Usage
 
 ```text
 device.swipe(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object`):
     - `options.x` (`Number?`): X coordinate to begin the gesture from. Defaults to 0.
@@ -21,11 +21,11 @@ device.swipe(options)
     - `options.direction` (`Number`): Direction in degrees (0-359) of swipe.
     - `options.duration` (`Number?`): Time in milliseconds to perform the swipe gesture.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves after the gesture is complete.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -33,7 +33,7 @@ device.swipe(options)
 | Android  | Yes       |
 | Web      | No        |
 
-## Examples
+### Examples
 
 Swipe left 100 pixels. This will swipe left from the coordinate (200, 200) to (100, 200), relative to the device viewport:
 

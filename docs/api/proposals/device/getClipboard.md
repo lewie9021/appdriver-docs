@@ -8,22 +8,22 @@ sidebar_label: 🔬 .getClipboard(options)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.getClipboard(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.contentType` (`String?`): TODO: Description here.
 
-#### Returns
+### Returns
 
 `Promise` (`String`): TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -31,7 +31,7 @@ device.getClipboard(options)
 | Android  | Unknown   |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Retrieve clipboard contents:
 

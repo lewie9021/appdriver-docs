@@ -96,7 +96,7 @@ Maximum number of retries for failing spec files. This will override the top-lev
 
 Capabilities to send to the Appium server. For more information, see [Appium Desired Capabilities](http://appium.io/docs/en/writing-running-appium/caps/).
 
-## Examples
+### Examples
  
 Automate an iPhone X 13.3 simulator for a single spec file.
 

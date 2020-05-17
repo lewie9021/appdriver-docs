@@ -6,17 +6,17 @@ sidebar_label: .toBeFocused()
 
 Asserts focus status of [element](../element.md).
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toBeFocused()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ expect(value).toBeFocused()
 | Android  | Yes       |
 | Web      | TODO      |
 
-## Examples
+### Examples
 
 Check if the text input is focused:
 
@@ -38,12 +38,12 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.toBeDisabled()`](./toBeDisabled.md)
 - [`.toBeSelected()`](./toBeSelected.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Active Element (Appium)](http://appium.io/docs/en/commands/element/other/active/)
 - [Get Active Element (W3C)](https://www.w3.org/TR/webdriver/#get-active-element)

@@ -6,7 +6,7 @@ sidebar_label: Gestures
 
 The `gestures` object provides a toolbox of presets and utility functions for composing a range of custom gestures to be executed via `device.performGesture()`.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -14,7 +14,7 @@ The `gestures` object provides a toolbox of presets and utility functions for co
 | Android  | Yes       |
 | Web      | No        |
 
-## Examples
+### Examples
 
 Rotate Gesture:
 

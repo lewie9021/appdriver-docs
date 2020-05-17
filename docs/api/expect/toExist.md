@@ -6,17 +6,17 @@ sidebar_label: .toExist()
 
 Asserts the element exists.
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toExist()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ expect(value).toExist()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Check if the button exists:
 
@@ -38,11 +38,11 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.toBeVisible()`](./toBeVisible.md)
 
-## Related Docs
+### Related Docs
 
 - [Find Element (Appium)](http://appium.io/docs/en/commands/element/find-element/)
 - [Find Element (W3C)](https://www.w3.org/TR/webdriver/#find-element)

@@ -12,15 +12,15 @@ Deep links are a great way to speed up tests. They can act as a shortcut to spec
 device.navigate(url)
 ```
 
-#### Parameters
+### Parameters
 
 1. `url` (`String`): Url to navigate to.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves once navigation is complete.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -28,7 +28,7 @@ device.navigate(url)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Open deep link:
 
@@ -40,7 +40,7 @@ const { device } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.goBack()`](./goBack.md)
 

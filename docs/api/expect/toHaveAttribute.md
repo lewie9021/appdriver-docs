@@ -6,22 +6,22 @@ sidebar_label: .toHaveAttribute(attribute, value)
 
 Asserts the element has `attribute` strictly equal to `value`.
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toHaveAttribute(attribute, value)
 ```
 
-#### Parameters
+### Parameters
 
 1. `attribute` (`String`): Name of attribute. See [`.getAttribute`](../element/getAttribute.md) for available attributes.
 2. `value` (`Any`): Value to compare against the element's attribute.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -29,7 +29,7 @@ expect(value).toHaveAttribute(attribute, value)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Check if the button is enabled:
 
@@ -43,7 +43,7 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Docs
+### Related Docs
 
 - [Get Element Attribute (Appium)](http://appium.io/docs/en/commands/element/attributes/attribute/)
 - [Get Element Attribute (W3C)](https://www.w3.org/TR/webdriver/#dfn-get-element-attribute)

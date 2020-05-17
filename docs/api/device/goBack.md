@@ -6,17 +6,17 @@ sidebar_label: .goBack()
 
 Go to the previous screen. On Android, this will use the hardware back button.
 
-#### Usage
+### Usage
 
 ```text
 device.goBack()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves after navigating to the previous screen.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ device.goBack()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Go to previous screen or exit app.
 
@@ -36,7 +36,7 @@ const { device } = require("appdriver");
 })();
 ```
 
-## Related Docs
+### Related Docs
 
 - [Go Back (Appium)](http://appium.io/docs/en/commands/session/back/)
 - [Back (W3C)](https://www.w3.org/TR/webdriver/#dfn-back)

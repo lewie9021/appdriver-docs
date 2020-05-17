@@ -6,17 +6,17 @@ sidebar_label: .toBeVisible()
 
 Asserts visibility status of [elements](../element.md) and [alerts](../alert.md).
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toBeVisible()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ expect(value).toBeVisible()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Check if the image is visible:
 
@@ -48,11 +48,11 @@ const { alert, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.toExist()`](./toExist.md)
 
-## Related Docs
+### Related Docs
 
 - [Is Element Displayed](http://appium.io/docs/en/commands/element/attributes/displayed/)
 - [Get Alert Text (W3C)](https://www.w3.org/TR/webdriver/#get-alert-text)

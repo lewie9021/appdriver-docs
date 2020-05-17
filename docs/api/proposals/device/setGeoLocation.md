@@ -8,24 +8,24 @@ sidebar_label: 🔬 .setGeoLocation(options)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.setGeoLocation(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object`):
     - `options.latitude` (`Number`): TODO: Description here.
     - `options.longitude` (`Number`): TODO: Description here.
     - `options.altitude` (`Number?`): TODO: Description here.
 
-#### Returns
+### Returns
 
 `Promise` (`Unknown`): TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -33,7 +33,7 @@ device.setGeoLocation(options)
 | Android  | Unknown   |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Set geo location:
 

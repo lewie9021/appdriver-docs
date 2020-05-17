@@ -6,21 +6,21 @@ sidebar_label: .wait(duration)
 
 Explicitly waits the given duration before continuing the test script.
 
-#### Usage
+### Usage
 
 ```text
 device.wait(duration)
 ```
 
-#### Parameters
+### Parameters
 
 1. `duration` (`Number`): Time in milliseconds to wait.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves after the given duration.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -28,7 +28,7 @@ device.wait(duration)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Explicitly wait 200 milliseconds:
 
@@ -40,7 +40,7 @@ const { device } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.waitFor(condition, options)`](./waitFor.md)
 - [`.while(condition, action, options)`](./while.md)

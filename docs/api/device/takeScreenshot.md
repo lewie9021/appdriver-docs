@@ -6,22 +6,22 @@ sidebar_label: .takeScreenshot(options)
 
 Takes a screenshot (PNG) of the entire screen and saves the result on disk at the given `filePath` location.
 
-#### Usage
+### Usage
 
 ```text
 device.takeScreenshot(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.filePath` (`String?`): Absolute path on disk to store the screenshot. 
 
-#### Returns
+### Returns
 
 `Promise` (`Buffer`): A promise containing a base64 buffer.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -29,7 +29,7 @@ device.takeScreenshot(options)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Take a screenshot and save in a relative 'screenshots' directory:
 
@@ -43,12 +43,12 @@ const path = require("path");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.startScreenRecording(options)`](./startScreenRecording.md)
 - [`.stopScreenRecording()`](./stopScreenRecording.md)
 
-## Related Docs
+### Related Docs
 
 - [Take Screenshot (Appium)](http://appium.io/docs/en/commands/session/screenshot/)
 - [Take Screenshot (W3C)](https://www.w3.org/TR/webdriver/#dfn-take-screenshot)

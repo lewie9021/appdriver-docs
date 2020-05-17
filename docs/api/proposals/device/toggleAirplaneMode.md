@@ -8,17 +8,17 @@ sidebar_label: 🔬 .toggleAirplaneMode()
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.toggleAirplaneMode()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.toggleAirplaneMode()
 | Android  | Unknown   |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Toggle airplane mode:
 

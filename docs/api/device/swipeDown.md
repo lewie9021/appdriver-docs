@@ -6,13 +6,13 @@ sidebar_label: .swipeDown(options)
 
 Performs a swipe down gesture in the context of the device viewport.
 
-#### Usage
+### Usage
 
 ```text
 device.swipeDown(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object`):
     - `options.x` (`Number?`): X coordinate to begin the gesture from. Defaults to 0.
@@ -21,11 +21,11 @@ device.swipeDown(options)
     - `options.percentage` (`Number?`): Percentage distance (0-1) of swipe relative to the height of the device viewport. Required if `distance` isn't provided. 
     - `options.duration` (`Number?`): Time in milliseconds to perform the swipe gesture.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves after the gesture is complete.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -33,7 +33,7 @@ device.swipeDown(options)
 | Android  | Yes       |
 | Web      | No        |
 
-## Examples
+### Examples
 
 Swipe down 50% of the screen. Given a viewport height of 800, this will swipe down from the coordinate (0, 100) to (0, 500), relative to the device viewport:
 

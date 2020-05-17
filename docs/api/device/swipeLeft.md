@@ -6,13 +6,13 @@ sidebar_label: .swipeLeft(options)
 
 Performs a swipe left gesture in the context of the device viewport.
 
-#### Usage
+### Usage
 
 ```text
 device.swipeLeft(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object`):
     - `options.x` (`Number?`): X coordinate to begin the gesture from. Defaults to either `distance` or the derived distance from `percentage`.
@@ -21,11 +21,11 @@ device.swipeLeft(options)
     - `options.percentage` (`Number?`): Percentage distance (0-1) of swipe relative to the height of the device viewport. Required if `distance` isn't provided. 
     - `options.duration` (`Number?`): Time in milliseconds to perform the swipe gesture.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves after the gesture is complete.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -33,7 +33,7 @@ device.swipeLeft(options)
 | Android  | Yes       |
 | Web      | No        |
 
-## Examples
+### Examples
 
 Swipe left 50% of the screen. Given a viewport width of 350, this will swipe left from the coordinate (175, 0) to (0, 0), relative to the device viewport:
 

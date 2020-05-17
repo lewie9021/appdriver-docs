@@ -8,17 +8,17 @@ sidebar_label: 🔬 .toggleLocation()
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.toggleLocation()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.toggleLocation()
 | Android  | Emulator  |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Toggle location:
 

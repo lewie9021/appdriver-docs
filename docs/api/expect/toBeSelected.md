@@ -6,17 +6,17 @@ sidebar_label: .toBeSelected()
 
 Asserts selected status of [element](../element.md).
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toBeSelected()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ expect(value).toBeSelected()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Check if the tab is selected:
 
@@ -38,12 +38,12 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.toBeDisabled()`](./toBeDisabled.md)
 - [`.toBeFocused()`](./toBeFocused.md)
 
-## Related Docs
+### Related Docs
 
 - [Is Element Selected (Appium)](http://appium.io/docs/en/commands/element/attributes/selected/)
 - [Is Element Selected (W3C)](https://www.w3.org/TR/webdriver/#dfn-is-element-selected)

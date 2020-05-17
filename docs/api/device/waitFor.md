@@ -8,13 +8,13 @@ Polls `condition` every `options.interval` or exceeds `options.maxDuration` time
 
 This is useful when your tests need to wait until a particular condition is met. It's common to use [`expect`](../expect.md) as part of defining the `condition` function.
 
-#### Usage
+### Usage
 
 ```text
 device.waitFor(condition, options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `condition` (`Function`):
     - `[ReturnType]` (`Promise`): Returning a Promise that rejects will retry until successfully resolved or exceeds `options.maxDuration`.
@@ -22,11 +22,11 @@ device.waitFor(condition, options)
     - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to 200.
     - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll before throwing. Defaults to 10000.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if `condition` resolves.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -34,7 +34,7 @@ device.waitFor(condition, options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Countdown timer:
 
@@ -48,7 +48,7 @@ const { device, element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.wait(duration)`](./wait.md)
 - [`.while(condition, action, options)`](./while.md)

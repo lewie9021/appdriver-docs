@@ -6,17 +6,17 @@ sidebar_label: .toBeDisabled()
 
 Asserts disabled status of [element](../element.md).
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toBeDisabled()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ expect(value).toBeDisabled()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Check if the button is disabled:
 
@@ -38,12 +38,12 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.toBeSelected()`](./toBeSelected.md)
 - [`.toBeFocused()`](./toBeFocused.md)
 
-## Related Docs
+### Related Docs
 
 - [Is Element Enabled (Appium)](http://appium.io/docs/en/commands/element/attributes/enabled/)
 - [Is Element Enabled (W3C)](https://www.w3.org/TR/webdriver/#dfn-is-element-enabled)

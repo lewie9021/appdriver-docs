@@ -6,17 +6,17 @@ sidebar_label: .setPortrait()
 
 Sets the device orientation to portrait.
 
-#### Usage
+### Usage
 
 ```text
 device.setPortrait()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves once the orientation has been set.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ device.setPortrait()
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Set device orientation to portrait:
 
@@ -38,11 +38,11 @@ const { device, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.isPortrait()`](./isPortrait.md)
 - [`.setLandscape()`](./setLandscape.md)
 
-## Related Docs
+### Related Docs
 
 - [Set Orientation (Appium)](http://appium.io/docs/en/commands/session/orientation/set-orientation/)

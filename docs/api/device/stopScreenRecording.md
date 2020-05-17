@@ -6,17 +6,17 @@ sidebar_label: .stopScreenRecording()
 
 Stops a screen recording currently in progress. See [`.startScreenRecording`](./startScreenRecording.md) to start a recording.
 
-#### Usage
+### Usage
 
 ```text
 device.stopScreenRecording()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Buffer`): A promise containing a base64 buffer.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ device.stopScreenRecording()
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Store a screen recording on disk:
 
@@ -59,11 +59,11 @@ const path = require("path");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.takeScreenshot(options)`](./takeScreenshot.md)
 - [`.startScreenRecording(options)`](./startScreenRecording.md)
 
-## Related Docs
+### Related Docs
 
 - [Stop Recording Screen (Appium)](http://appium.io/docs/en/commands/device/recording-screen/stop-recording-screen/)

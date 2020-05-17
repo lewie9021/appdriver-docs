@@ -6,7 +6,7 @@ sidebar_label: Device
 
 The `device` object provides a way of performing interactions within the application that aren't directly linked with elements.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -14,7 +14,7 @@ The `device` object provides a way of performing interactions within the applica
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 TODO: Description here.
 

@@ -6,17 +6,17 @@ sidebar_label: .getText()
 
 Retrieves text content of a native alert. If an alert is not visible, an error will be thrown.
 
-#### Usage
+### Usage
 
 ```text
 alert.getText()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`String`): Alert text contents.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ alert.getText()
 | Android  | Yes       |
 | Web      | Yes       |
 
-#### Examples
+### Examples
 
 TODO: Description here.
 
@@ -41,14 +41,14 @@ const { alert, expect } = require("appdriver");
 })();
 ```
 
-## Known Issues
+### Known Issues
 
 - In a scenario where alerts stack, text of the alert opened first will be returned. This is behaviour that comes directly from Appium.
 
-## Related Methods
+### Related Methods
 
 - [`.isVisible()`](./isVisible.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Alert Text (W3C)](https://www.w3.org/TR/webdriver/#get-alert-text)

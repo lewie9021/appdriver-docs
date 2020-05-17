@@ -6,17 +6,17 @@ sidebar_label: .isPortrait()
 
 Returns whether the device is in a portrait or landscape orientation.
 
-#### Usage
+### Usage
 
 ```text
 device.isPortrait()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Boolean`): A promise that resolves with the orientation status.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ device.isPortrait()
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Check if the device is in a portrait orientation:
 
@@ -38,11 +38,11 @@ const { device, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.setPortrait()`](./setPortrait.md)
 - [`.setLandscape()`](./setLandscape.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Orientation (Appium)](http://appium.io/docs/en/commands/session/orientation/get-orientation/)

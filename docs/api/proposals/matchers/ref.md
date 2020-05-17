@@ -8,17 +8,17 @@ sidebar_label: 🔬 .ref(ref)
 
 Find element(s) by their Webdriver reference.
 
-#### Usage
+### Usage
 
 ```text
 by.ref(ref)
 ```
 
-#### Returns
+### Returns
 
 [`Matcher`](../../matchers.md): A matcher to be used when finding elements.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ by.ref(ref)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Find an element by ref:
 

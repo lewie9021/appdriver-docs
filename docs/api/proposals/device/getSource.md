@@ -8,17 +8,17 @@ sidebar_label: 🔬 .getSource()
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.getSource()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`String`): Page source contents.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.getSource()
 | Android  | Unknown   |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Get page source contents:
 

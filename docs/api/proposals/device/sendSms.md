@@ -8,23 +8,23 @@ sidebar_label: 🔬 .sendSms(options)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.sendSms(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object`):
     - `options.phoneNumber` (`String`): TODO: Description here.
     - `options.message` (`String`): TODO: Description here.
 
-#### Returns
+### Returns
 
 `Promise` (`Unknown`): TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -32,7 +32,7 @@ device.sendSms(options)
 | Android  | Emulator  |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Send SMS message:
 

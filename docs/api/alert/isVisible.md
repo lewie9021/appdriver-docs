@@ -6,17 +6,17 @@ sidebar_label: .isVisible()
 
 Returns whether an alert is visible.
 
-#### Usage
+### Usage
 
 ```text
 alert.isVisible()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Boolean`): Whether the alert is visible or not.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ alert.isVisible()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 TODO: Description here.
 
@@ -37,10 +37,10 @@ const { alert, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.waitToBeVisible(options)`](./waitToBeVisible.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Alert Text (W3C)](https://www.w3.org/TR/webdriver/#get-alert-text)

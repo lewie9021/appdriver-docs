@@ -8,22 +8,22 @@ sidebar_label: 🔬 .writeFile(filePath, data)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.writeFile(filePath, data)
 ```
 
-#### Parameters
+### Parameters
 
 1. `filePath` (`String`): TODO: Description here.
 2. `data` (`Buffer | String`): TODO: Description here.
 
-#### Returns
+### Returns
 
 `Promise`: TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -31,7 +31,7 @@ device.writeFile(filePath, data)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Store file on device:
 
@@ -44,6 +44,6 @@ const { device } = require("appdriver");
 })();
 ```
 
-## Related Docs
+### Related Docs
 
 - [Push File (Appium)](http://appium.io/docs/en/commands/device/files/push-file/)

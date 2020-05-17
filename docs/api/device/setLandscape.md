@@ -6,17 +6,17 @@ sidebar_label: .setLandscape()
 
 Sets the device orientation to landscape.
 
-#### Usage
+### Usage
 
 ```text
 device.setLandscape()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves once the orientation has been set.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ device.setLandscape()
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Set device orientation to landscape:
 
@@ -38,11 +38,11 @@ const { device, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.isPortrait()`](./isPortrait.md)
 - [`.setPortrait()`](./setPortrait.md)
 
-## Related Docs
+### Related Docs
 
 - [Set Orientation (Appium)](http://appium.io/docs/en/commands/session/orientation/set-orientation/)

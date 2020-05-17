@@ -8,17 +8,17 @@ sidebar_label: 🔬 .getSettings()
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.getSettings()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Object`): TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.getSettings()
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Get device settings:
 

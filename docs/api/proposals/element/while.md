@@ -8,13 +8,13 @@ sidebar_label: 🔬 .while(condition, action, options)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).while(condition, action, options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `condition` (`Function`):
     - `element` (`Element`): Reference to current element to apply assertions against.
@@ -26,11 +26,11 @@ element(matcher).while(condition, action, options)
     - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to 200.
     - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll before throwing. Defaults to 10000.
 
-#### Returns
+### Returns
 
 [`Element`](../../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -38,7 +38,7 @@ element(matcher).while(condition, action, options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Set date picker values (iOS):
 

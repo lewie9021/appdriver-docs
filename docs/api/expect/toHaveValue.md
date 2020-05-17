@@ -6,21 +6,21 @@ sidebar_label: .toHaveValue(value)
 
 Asserts the element has a value strictly equal to `value`.
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toHaveValue(value)
 ```
 
-#### Parameters
+### Parameters
 
 1. `value` (`String | Number | Boolean`): Value to compare against the element's value.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -28,7 +28,7 @@ expect(value).toHaveValue(value)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Text input:
 
@@ -68,11 +68,11 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.toHaveText(text, options)`](./toHaveText.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Element Attribute (Appium)](http://appium.io/docs/en/commands/element/attributes/attribute/)
 - [Get Element Attribute (W3C)](https://www.w3.org/TR/webdriver/#dfn-get-element-attribute)

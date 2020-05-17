@@ -6,21 +6,21 @@ sidebar_label: .toEqual(value)
 
 Asserts the value is strictly equal to `value`.
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toEqual(value)
 ```
 
-#### Parameters
+### Parameters
 
 1. `value` (`Any`): Value to compare against.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -28,7 +28,7 @@ expect(value).toEqual(value)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Numeric value:
 
@@ -65,6 +65,6 @@ const { element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.toMatch(pattern)`](./toMatch.md)

@@ -8,13 +8,13 @@ sidebar_label: 🔬 .selectPlatform(options)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 utils.selectPlatform(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.ios` (`Function?`): TODO: Description here.
@@ -22,11 +22,11 @@ utils.selectPlatform(options)
     - `options.web` (`Function?`): TODO: Description here.
     - `options.native` (`Function?`): TODO: Description here.
 
-#### Returns
+### Returns
 
 `Any`: TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -34,7 +34,7 @@ utils.selectPlatform(options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Handle differing matcher between platforms:
 

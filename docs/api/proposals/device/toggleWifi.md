@@ -8,17 +8,17 @@ sidebar_label: 🔬 .toggleWifi()
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.toggleWifi()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.toggleWifi()
 | Android  | Emulator  |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Toggle Wifi:
 

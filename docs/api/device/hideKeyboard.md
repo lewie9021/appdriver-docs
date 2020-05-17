@@ -6,17 +6,17 @@ sidebar_label: .hideKeyboard()
 
 Hides the on-screen keyboard.
 
-#### Usage
+### Usage
 
 ```text
 device.hideKeyboard()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves once the keyboard is no longer visible.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ device.hideKeyboard()
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Hide on-screen keyboard:
 
@@ -38,7 +38,7 @@ const { device, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.isKeyboardVisible()`](./isKeyboardVisible.md)
 

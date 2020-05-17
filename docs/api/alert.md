@@ -6,7 +6,7 @@ sidebar_label: Alert
 
 The `alert` object provides a way of interacting with native alerts.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -14,7 +14,7 @@ The `alert` object provides a way of interacting with native alerts.
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 TODO: Description here.
 

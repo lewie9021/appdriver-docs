@@ -8,17 +8,17 @@ sidebar_label: 🔬 .isReal
 
 Returns whether the device is real. Returns false for simulators and emulators.
 
-#### Usage
+### Usage
 
 ```text
 device.isReal
 ```
 
-#### Returns
+### Returns
 
 `Boolean`: Whether the device is real.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.isReal
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Check if the device is real:
 

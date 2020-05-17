@@ -6,17 +6,17 @@ sidebar_label: .id(id)
 
 Find element(s) by their ID. For Android this is the `resource-id` attribute, whereas for iOS it's the `name` attribute.
 
-#### Usage
+### Usage
 
 ```text
 by.id(id)
 ```
 
-#### Returns
+### Returns
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ by.id(id)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Find an element with an id of "button".
 
@@ -46,6 +46,6 @@ const { elements, by } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`by.label(label)`](./label.md)

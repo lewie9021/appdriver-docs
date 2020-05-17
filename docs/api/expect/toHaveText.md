@@ -6,22 +6,22 @@ sidebar_label: .toHaveText(text)
 
 Asserts [elements](../element.md) or [alerts](../alert.md) have text matching `text`.
 
-#### Usage
+### Usage
 
 ```text
 expect(value).toHaveText(text)
 ```
 
-#### Parameters
+### Parameters
 
 1. `text` (`String`): Text to compare against.
 2. `options` (`Object?`): Options for [`.getText`](../element/getText.md) when asserting an [element](../element.md).
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if the assertion is successful.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -29,7 +29,7 @@ expect(value).toHaveText(text)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Element text:
 
@@ -80,11 +80,11 @@ const { alert, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.toHaveValue(value)`](./toHaveValue.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Element Text (Appium)](http://appium.io/docs/en/commands/element/attributes/text/)
 - [Get Element Text (W3C)](https://www.w3.org/TR/webdriver/#dfn-get-element-text)

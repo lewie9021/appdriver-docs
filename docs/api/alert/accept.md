@@ -6,17 +6,17 @@ sidebar_label: .accept()
 
 Attempts to accept a native alert. If an alert is not visible, an error will be thrown.
 
-#### Usage
+### Usage
 
 ```text
 alert.accept()
 ```
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves once the alert has been accepted and no longer visible.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ alert.accept()
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 ```javascript
 const { element, by, alert, expect } = require("appdriver");
@@ -38,17 +38,17 @@ const { element, by, alert, expect } = require("appdriver");
 })();
 ```
 
-## Known Issues
+### Known Issues
 
 - In a scenario where alerts stack, all alerts will be accepted (not just the top one). This is behaviour that comes directly from Appium.
 
-## Related Methods
+### Related Methods
 
 - [`.dismiss()`](./dismiss.md)
 - [`.isVisible()`](./isVisible.md)
 - [`.waitToBeVisible(options)`](./waitToBeVisible.md)
 
-## Related Docs
+### Related Docs
 
 - [Accept Alert (W3C)](https://www.w3.org/TR/webdriver/#accept-alert)
 - [Get Alert Text (W3C)](https://www.w3.org/TR/webdriver/#get-alert-text)

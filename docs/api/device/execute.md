@@ -8,22 +8,22 @@ Execute a script / command within the current context. Commands available within
 
 > Note: Where possible, it is good practice to extract script functions into a separate module. That way, it removes temptation to reference variables out of scope that will cause the script to fail. It also helps untangle the mix of execution contexts (Node.js vs. Web).
 
-#### Usage
+### Usage
 
 ```text
 device.execute(script, ...params)
 ```
 
-#### Parameters
+### Parameters
 
 1. `script` (`String | Function`): Script to execute. Functions are only supported within the Web context.
 2. `...params` (`Any`): JSON serializable parameters (e.g. strings, numbers, objects, arrays and null) to be passed to the script.
 
-#### Returns
+### Returns
 
 `Promise` (`Any`): A promise containing the result of the script.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -31,7 +31,7 @@ device.execute(script, ...params)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Retrieve the current device time (Native): 
 
@@ -85,7 +85,7 @@ const { device, element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Docs
+### Related Docs
 
 - [Execute Mobile Command (Appium)](http://appium.io/docs/en/commands/mobile-command/)
 - [Execute Script (Appium)](http://appium.io/docs/en/commands/web/execute/)

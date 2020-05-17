@@ -8,17 +8,17 @@ sidebar_label: 🔬 .getGeoLocation()
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.getGeoLocation()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Unknown`): TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.getGeoLocation()
 | Android  | Unknown   |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Retrieve geo location:
 

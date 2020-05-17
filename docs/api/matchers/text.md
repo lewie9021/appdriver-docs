@@ -6,17 +6,17 @@ sidebar_label: .text(text)
 
 Find element(s) by their text value.
 
-#### Usage
+### Usage
 
 ```text
 by.text(text)
 ```
 
-#### Returns
+### Returns
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ by.text(text)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Find an element with the text "Hello World!".
 

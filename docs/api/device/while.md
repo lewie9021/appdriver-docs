@@ -6,13 +6,13 @@ sidebar_label: .while(condition, action, options)
 
 While `condition` resolves, polls `action` every `options.interval` or exceeds `options.maxDuration` timeout.
 
-#### Usage
+### Usage
 
 ```text
 device.while(condition, action, options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `condition` (`Function`):
     - `[ReturnType]` (`Promise`): Returning a Promise that resolves will retry until it rejects or exceeds `options.maxDuration`.
@@ -22,11 +22,11 @@ device.while(condition, action, options)
     - `options.interval` (`Number?`): Duration in milliseconds to wait between polling. Defaults to 200.
     - `options.maxDuration` (`Number?`): Max duration in milliseconds to poll before throwing. Defaults to 10000.
 
-#### Returns
+### Returns
 
 `Promise`: A promise that resolves if `condition` rejects.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -34,7 +34,7 @@ device.while(condition, action, options)
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 Swipe up until the button is visible:
 
@@ -49,7 +49,7 @@ const { device, element, by, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.wait(duration)`](./wait.md)
 - [`.waitFor(condition, options)`](./waitFor.md)

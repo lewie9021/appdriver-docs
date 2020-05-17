@@ -8,24 +8,24 @@ sidebar_label: 🔬 .setClipboard(value, options)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.setClipboard(value, options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `value` (`String`):
 2. `options` (`Object?`):
     - `options.contentType` (`String?`): TODO: Description here.
     - `options.label` (`String?`): TODO: Description here.
 
-#### Returns
+### Returns
 
 `Promise`: TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -33,7 +33,7 @@ device.setClipboard(value, options)
 | Android  | Unknown   |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Set clipboard contents:
 

@@ -8,21 +8,21 @@ sidebar_label: 🔬 .readFile(filePath)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.readFile(filePath)
 ```
 
-#### Parameters
+### Parameters
 
 1. `filePath` (`String`): TODO: Description here.
 
-#### Returns
+### Returns
 
 `Promise` (`Buffer`): A promise containing a base64 buffer.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -30,7 +30,7 @@ device.readFile(filePath)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Retrieve contents of file on device:
 
@@ -42,6 +42,6 @@ const { device } = require("appdriver");
 })();
 ```
 
-## Related Docs
+### Related Docs
 
 - [Pull File (Appium)](http://appium.io/docs/en/commands/device/files/pull-file/)

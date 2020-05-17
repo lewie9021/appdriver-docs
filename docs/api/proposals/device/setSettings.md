@@ -8,21 +8,21 @@ sidebar_label: 🔬 .setSettings(settings)
 
 TODO: Description here.
 
-#### Usage
+### Usage
 
 ```text
 device.setSettings(settings)
 ```
 
-#### Parameters
+### Parameters
 
 1. `settings` (`Object`): TODO: Description here.
 
-#### Returns
+### Returns
 
 `Promise`: TODO: Description here.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -30,7 +30,7 @@ device.setSettings(settings)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Set device settings:
 

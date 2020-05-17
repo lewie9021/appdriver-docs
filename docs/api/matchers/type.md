@@ -6,17 +6,17 @@ sidebar_label: .type(type)
 
 Find element(s) by their type.
 
-#### Usage
+### Usage
 
 ```text
 by.type(type)
 ```
 
-#### Returns
+### Returns
 
 [`Matcher`](../matchers.md): A matcher to be used when finding elements.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ by.type(type)
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Find an iOS text input.
 

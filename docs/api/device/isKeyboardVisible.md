@@ -6,17 +6,17 @@ sidebar_label: .isKeyboardVisible()
 
 Returns whether the keyboard is visible or not.
 
-#### Usage
+### Usage
 
 ```text
 device.isKeyboardVisible()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Boolean`): A promise that resolves with the keyboard visibility status.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -24,7 +24,7 @@ device.isKeyboardVisible()
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Check if the keyboard is visible:
 
@@ -38,10 +38,10 @@ const { device, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.hideKeyboard()`](./hideKeyboard.md)
 
-## Related Docs
+### Related Docs
 
 - [Is Keyboard Shown (Appium)](http://appium.io/docs/en/commands/device/keys/is-keyboard-shown/)

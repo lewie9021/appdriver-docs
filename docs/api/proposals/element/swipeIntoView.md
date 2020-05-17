@@ -8,13 +8,13 @@ sidebar_label: 🔬 .swipeIntoView(options)
 
 To be used on scrollable elements, ensuring `element` is fully visible so that interactions are successful. Defaults `direction` to 0.
 
-#### Usage
+### Usage
 
 ```text
 element(matcher).swipeIntoView(options)
 ```
 
-#### Parameters
+### Parameters
 
 1. `options` (`Object?`):
     - `options.element` (`Element`): TODO: Description here.
@@ -25,11 +25,11 @@ element(matcher).swipeIntoView(options)
       - `safeArea.bottom` (`Number?`): TODO: Description here.
       - `safeArea.left` (`Number?`): TODO: Description here.
 
-#### Returns
+### Returns
 
 [`Element`](../../element.md): A new element to avoid mutation and allow function chaining.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -37,7 +37,7 @@ element(matcher).swipeIntoView(options)
 | Android  | Unknown   |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Swipe on scroll view until the button is visible:
 

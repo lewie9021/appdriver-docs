@@ -6,19 +6,19 @@ sidebar_label: .session
 
 Returns the session identifier and capabilities.
 
-#### Usage
+### Usage
 
 ```text
 device.session
 ```
 
-#### Returns
+### Returns
 
 `Object`:
   - `sessionId` (`String`): Session identifier.
   - `capabilities` (`Object`): Session capabilities.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.session
 | Android  | Yes       |
 | Web      | Yes       |
 
-## Examples
+### Examples
 
 ```javascript
 const { device } = require("appdriver");
@@ -39,7 +39,7 @@ const { device } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.name`](./name.md)
 - [`.platform`](./platform.md)

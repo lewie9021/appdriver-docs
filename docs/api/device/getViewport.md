@@ -6,19 +6,19 @@ sidebar_label: .getViewport()
 
 Retrieves the width and height of the device viewport.
 
-#### Usage
+### Usage
 
 ```text
 device.getViewport()
 ```
 
-#### Returns
+### Returns
 
 `Promise` (`Object`):
   - `width` (`Number`): Width of device viewpoint.
   - `height` (`Number`): Height of device viewpoint.
 
-#### Support
+### Support
 
 | Platform | Supported |
 | -------- | --------- |
@@ -26,7 +26,7 @@ device.getViewport()
 | Android  | Yes       |
 | Web      | Unknown   |
 
-## Examples
+### Examples
 
 Get viewport size of device (e.g. iPhone X):
 
@@ -43,11 +43,11 @@ const { device, expect } = require("appdriver");
 })();
 ```
 
-## Related Methods
+### Related Methods
 
 - [`.setPortrait()`](./setPortrait.md)
 - [`.setLandscape()`](./setLandscape.md)
 
-## Related Docs
+### Related Docs
 
 - [Get Window Rect (W3C)](https://www.w3.org/TR/webdriver/#dfn-get-window-rect)
