@@ -27,7 +27,6 @@ const siteConfig = {
     theme: "darcula"
   },
   scripts: ["https://buttons.github.io/buttons.js"],
-  onPageNav: "separate",
   cleanUrl: true,
 
   // For sites with a sizable amount of content, set collapsible to true.
