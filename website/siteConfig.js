@@ -10,6 +10,11 @@ const siteConfig = {
     {doc: "api-reference", label: "API"},
     {href: "https://github.com/lewie9021/appdriver", label: "GitHub"}
   ],
+  algolia: {
+    apiKey: "d839f55633ab9f2eb63ca0b59ef53884",
+    indexName: "lewie9021_appdriver",
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
   // headerIcon: "img/favicon.ico",
   // footerIcon: "img/favicon.ico",
   // favicon: "img/favicon.ico",
